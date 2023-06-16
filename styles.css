@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style:normal;
+    font-weight:100;
+    font-size: max(48px, 5.5vw);
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', sans-serif;                 
+    font-style:normal;
+    font-weight:400;
+}
+
+h3, p {
+    font-family: 'IBM Plex Mono', sans-serif;                 
+    font-style:normal;
+    font-weight:300;
+}

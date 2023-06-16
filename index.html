@@ -8,26 +8,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        .primary_visuals {
+            display: flex;
+            flex-direction: row;
+        }
+        .primary_visuals_info {
+            margin-left: -200px;
+        }
+    
+        .centered {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    
+        h1 {
+            margin-bottom: 20px;
+        }
 
+        .primary_visuals_headshot {
+            display: flex;
+            align-items: center;
+        }
+
+        h2, h3 {
+            margin-bottom: 10px; /* Adjust this value to increase or decrease the spacing */
+        }
     </style>
+    
     <title>Home | Tristan Lundgreen</title>
-</head>
-
-<body>
-    <div>
-        <h1>Tristan<br>Lundgreen</h1> 
-        <h2>QA Engineer, Artist, Cyberpunk</h2>
-        <h3>Salt Lake City, Utah</h3>
-    </div>
+    </head>
+    
+    <body>
+        <div class="primary_visuals">
+            <div class="primary_visuals_headshot">
+                <img src="assets/index_photos/wall_headshot.webp" alt="A Portrait of Tristan Lundgreen" style="width: 75%; height: auto">
+            </div>
+            <div class="right_info">
+                <div class="primary_visuals_info">
+                    <img class="centered inland_empire" id="inland_empire" src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire, Tristan's Emblem" style="width:55%; height: auto">
+                    <h1 class="h1">Tristan<br class="small-line-break">Lundgreen</h1>
+                    <h2 class="centered tagline">QA Engineer, Artist, Cyberpunk.</h2>
+                    <h3 class="centered location">@Salt Lake City, Utah</h3>
+                </div>
+            </div>
+        </div>
+    </body>
+    
     <div>
         <main>
-            <p id="introduction-1">
+            <p class="intro_blurb" id="introduction-1">
                 A University of Utah graduate, I specialize in creating efficient, 
                 highly maintainable software test automation using Robot Framework and Python. 
                 I have extensive experience building QA foundations from the ground up in both commercial and fintech sectors where
                 I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation code bases.
             </p>
-            <p id="introduction-2">
+            <p class="intro_blurb" id="introduction-2">
                 When not at work, I enjoy using my professional skills to train individuals interested in starting a career in QA. In addition, 
                 I might be found pursuing any one of my creative passions, including illustration, photography, audio-video work, writing, graphic design, 
                 and programming, or supporting local and online communities as a patron of the arts.

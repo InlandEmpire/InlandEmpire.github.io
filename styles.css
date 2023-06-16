@@ -2,11 +2,17 @@
     margin: 0;
 }
 
+body {
+    margin-left:100px;
+    margin-right:100px;
+}
+
 h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-style:normal;
     font-weight:100;
     font-size: max(48px, 5.5vw);
+    line-height: 1.0; /* Adjust this value as needed */
 }
 
 h2 {

@@ -27,10 +27,18 @@ h3, p {
     font-weight:300;
 }
 
-img {
+.rounded_image {
     border-radius: 10px;
 }
 
 .shadowed {
     filter: drop-shadow(3px 3px 6px #e9e9e9);
 }
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.grow:hover { 
+    transform: scale(1.3); 
+    }

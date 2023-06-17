@@ -26,7 +26,7 @@
         }
     
         h1 {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
     
         .primary_visuals_headshot {
@@ -37,16 +37,35 @@
         .inland_empire {
             display: flex;
             align-items: center;
+            margin-bottom: 30px;
         }
     
         h2, h3 {
             margin-bottom: 10px;
         }
-    
+
         .intro_blurb {
             max-width: 450px;
             margin-right: 1em;
+            margin-top: 20px;
             float: right;
+        }
+
+        .socials_tree {
+            display: flex;
+            margin-top: 30px;
+            list-style-type: none;
+            justify-content: center;
+        }
+
+        .socials_tree_button {
+            padding: 20px;
+            width:200%; 
+
+        }
+
+        .socials_tree_image {
+            width:40%; height: auto
         }
     </style>
 </head>
@@ -54,14 +73,19 @@
 <body>
     <div class="primary_visuals">
         <div class="primary_visuals_headshot">
-            <img src="assets/index_photos/wall_headshot.webp" alt="A Portrait of Tristan Lundgreen" style="width: 75%; height: auto">
+            <img class="rounded_image" src="assets/index_photos/wall_headshot.webp" alt="A Portrait of Tristan Lundgreen" style="width: 75%; height: auto">
         </div>
         <div class="right_info">
             <div class="primary_visuals_info">
-                <img class="centered inland_empire" id="inland_empire" src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire, Tristan's Emblem" style="width:55%; height: auto">
+                <img class="centered inland_empire" id="inland_empire" src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire, Tristan's Emblem" style="width:35%; height: auto">
                 <h1 class="h1">Tristan<br class="small-line-break">Lundgreen</h1>
                 <h2 class="centered tagline" id="tagline">QA Engineer, Artist, Cyberpunk.</h2>
                 <h3 class="centered location" id="location">@Salt Lake City, Utah</h3>
+                <ul class="socials_tree">
+                    <li class="grow"><a class="socials_tree_button grow" target="_blank" rel="noopener noreferrer" id="github_link" href="https://github.com/InlandEmpire"><img class="socials_tree_image" src="assets/iconmonstr-github-1.svg"></a></li>
+                    <li class="grow"><a class="socials_tree_button grow" target="_blank" rel="noopener noreferrer" id="linkedin_link" href="https://www.linkedin.com/in/tristan-lundgreen/"><img class="socials_tree_image" src="assets/iconmonstr-linkedin-3.svg"></a></li>
+                    <li class="grow"><a class="socials_tree_button grow" target="_blank" rel="noopener noreferrer" id="twitter_link" href="https://twitter.com/Inland__Empire"><img class="socials_tree_image" src="assets/iconmonstr-twitter-1.svg"></a></li>
+                </ul>   
             </div>
         </div>
     </div>
@@ -72,7 +96,7 @@
                 <p>When not at work, I enjoy using my professional skills to train individuals interested in starting a career in QA. In addition, I might be found pursuing any one of my creative passions, including illustration, photography, audio-video work, writing, graphic design, and programming, or supporting local and online communities as a patron of the arts.</p>
             </div>
             <div class="intro_blurb" id="introduction_2">
-                <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. <br/>I have extensive experience building QA foundations from the ground up in both commercial and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation code bases.</p>
+                <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. I have extensive experience building QA foundations from the ground up in both commercial and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation code bases.</p>
             </div>
         </main>
     </div>

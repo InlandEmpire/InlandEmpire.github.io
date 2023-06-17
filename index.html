@@ -65,8 +65,51 @@
         }
 
         .socials_tree_image {
-            width:40%; height: auto
+            width:40%; 
+            height: auto;
         }
+
+        .contact_form {
+            clear:both;
+            height: 100%;
+            background-color: black;
+            margin-left:-100px;
+            margin-right:-100px;
+            border-radius: 10px 10px 0 0;
+
+            & h2, label {
+            color:white;
+            padding-top: 25px;
+            display: flex;
+            flex-direction: column;
+            }
+
+            & .contact_email {
+                border-radius: 10px;
+                margin-right: 475px;
+            }
+
+            & .contact_form_body {
+                margin-left:100px;
+                margin-right:100px;
+                padding-bottom: 70px;              
+            }
+
+            & textarea, input {
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 5px;
+                border-style: none;
+                font-size: 18px;
+            }
+
+            & button {
+                float: right;
+                margin-top: 15px;
+                margin-bottom: 25px;
+            }
+        }
+
     </style>
 </head>
 
@@ -93,13 +136,41 @@
     <div>
         <main>
             <div class="intro_blurb introduction_1" id="introduction_1">
-                <p>When not at work, I enjoy using my professional skills to train individuals interested in starting a career in QA. In addition, I might be found pursuing any one of my creative passions, including illustration, photography, audio-video work, writing, graphic design, and programming, or supporting local and online communities as a patron of the arts.</p>
+                <p>When not at work, I volunteer my professional skills to train people interested in starting a career in QA. In addition, I might be found pursuing any one of my creative passions, including illustration, photography, audio-video work, writing, graphic design, and programming, or supporting local and online communities.</p>
             </div>
-            <div class="intro_blurb" id="introduction_2">
-                <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. I have extensive experience building QA foundations from the ground up in both commercial and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation code bases.</p>
+            <div class="intro_blurb introduction_2" id="introduction_2">
+                <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. I have extensive experience building QA foundations from the ground up in both servicec and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation.</p>
             </div>
         </main>
     </div>
+    <hr class="invisible_break"/>
+    <div class="contact_form">
+        <div class="contact_form_body">
+            <h2>/Reach out_ _ _</h2>
+            <form
+                action="https://formspree.io/f/meqwylzz"
+                method="POST">
+
+                <label class="contact_email">
+                    <h3>
+                    Your_email:
+                    </h3>
+                    <input type="email" name="email">
+                </label>
+                <div>
+                <label class="stretchedToMargin">
+                    <h3>
+                    Your_message:
+                    </h3>
+                    <textarea class="stretchedToMargin" name="message"></textarea>
+                </label>
+                <!-- other form fields go here -->
+                <button type="submit">< /send ></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
 </body>
 
     <script src="./listeners.js"></script>

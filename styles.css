@@ -11,8 +11,8 @@ h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-style:normal;
     font-weight:100;
-    font-size: max(48px, 5.5vw);
-    line-height: 1.0; /* Adjust this value as needed */
+    font-size: max(35px, 4.5vw);
+    line-height: 1.0;
 }
 
 h2 {
@@ -25,4 +25,12 @@ h3, p {
     font-family: 'IBM Plex Mono', sans-serif;                 
     font-style:normal;
     font-weight:300;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.shadowed {
+    filter: drop-shadow(3px 3px 6px #e9e9e9);
 }

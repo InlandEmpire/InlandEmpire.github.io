@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.jpg">
-    <title>Home | Tristan Lundgreen</title>
+    
     
     <style>
         .primary_visuals {
@@ -72,7 +72,7 @@
         .contact_form {
             clear:both;
             height: 100%;
-            background-color: black;
+            background-color: #121212;
             margin-left:-100px;
             margin-right:-100px;
             border-radius: 10px 10px 0 0;
@@ -110,17 +110,88 @@
             }
         }
 
+            /* CSS for the navbar */
+
+        nav {
+            padding-top: 10px;
+        }
+
+        ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding-bottom: 20px;
+        overflow: hidden;
+        }
+
+        ul.navbar li {
+        float: right;
+        }
+
+        ul.navbar li a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+        }
+
+        .navbar_home_button {
+        float: left;
+        font-style: bold;
+        text-decoration: none;
+        color: black;
+        cursor: default; /* Disable cursor pointer on the button */
+        outline: none; /* Remove the focus outline when button is clicked */
+        }
+
+        .navbar_home_button a {
+        font-size: 20px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: black;
+        text-decoration: none;
+        }
+
+        .navbar_home_button a:visited {
+        color: black;
+        }
+
+        .navbar_home_button {
+            position: relative;
+
+            & img{
+                width:4%; 
+                height: auto; 
+                float: left; 
+                margin-top: 10px; 
+                display: block;
+            }
+        }
+
     </style>
+
+    <title>Home | Tristan Lundgreen</title>
 </head>
 
 <body>
+    <nav>
+        <div class="navbar_home_button">
+            <a id="navbar_home_button_image" href="/"><img class="socials_tree_image" src="assets/index_photos/black_scribble_transparrent.webp"></a>
+            <button id="navbar_home_button"><a href="/">Tristan Lundgreen</a></button>
+        </div>
+        <ul class="navbar">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Resumé</a></li>
+    </ul>
+      </nav>
     <div class="primary_visuals">
         <div class="primary_visuals_headshot">
             <img class="rounded_image" src="assets/index_photos/wall_headshot.webp" alt="A Portrait of Tristan Lundgreen" style="width: 75%; height: auto">
         </div>
         <div class="right_info">
             <div class="primary_visuals_info">
-                <img class="centered inland_empire" id="inland_empire" src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire, Tristan's Emblem" style="width:35%; height: auto">
+                <img class="centered inland_empire" id="inland_empire" src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire, Tristan's Emblem" style="width:35%; height: auto; display: block;">
                 <h1 class="h1">Tristan<br class="small-line-break">Lundgreen</h1>
                 <h2 class="centered tagline" id="tagline">QA Engineer, Artist, Cyberpunk.</h2>
                 <h3 class="centered location" id="location">@Salt Lake City, Utah</h3>
@@ -139,7 +210,7 @@
                 <p>When not at work, I volunteer my professional skills to train people interested in starting a career in QA. In addition, I might be found pursuing any one of my creative passions, including illustration, photography, audio-video work, writing, graphic design, and programming, or supporting local and online communities.</p>
             </div>
             <div class="intro_blurb introduction_2" id="introduction_2">
-                <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. I have extensive experience building QA foundations from the ground up in both servicec and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation.</p>
+                <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. I have extensive experience building QA foundations from the ground up in both SaaS and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation.</p>
             </div>
         </main>
     </div>

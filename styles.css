@@ -74,6 +74,6 @@ button {
 }
 
 .stretchedToMargin {
-    height: calc(50vh - 25px - 15px);
+    height: calc(30vh - 25px - 15px);
     resize: none;
   }

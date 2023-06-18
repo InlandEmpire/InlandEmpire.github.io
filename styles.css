@@ -77,3 +77,10 @@ button {
     height: calc(30vh - 25px - 15px);
     resize: none;
   }
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

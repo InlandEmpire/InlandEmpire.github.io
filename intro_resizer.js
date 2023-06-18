@@ -1,3 +1,4 @@
+// Resize introduciton text boxes to maintain proportion
 window.addEventListener('resize', function() {
     var sourceElement = document.getElementById('tagline');
     var targetElementOne = document.getElementById('introduction_1');
@@ -7,4 +8,3 @@ window.addEventListener('resize', function() {
     targetElementOne.style.maxWidth = sourceWidth + 'px';
     targetElementTwo.style.maxWidth = sourceWidth + 'px';
   });
-  

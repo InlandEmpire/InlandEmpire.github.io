@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/ibm-plex-sans?styles=18784" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ibm-plex-mono" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="common_elements/element_styles.css" type="text/css">
+
+    <style>
+        body{
+        background-color: white;
+        }
+
+        .inland_empire {
+            margin-top: 200px;
+            width:35%; 
+            height: auto; 
+            display: block;
+        }
+
+        .under_construction_text{
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        .construction_home_button {
+            border: 2px solid black;
+            margin-top: 20px;
+            padding:10px;
+            }
+
+        .construction_home_button:hover {
+            background: black;
+            color: white;
+        }
+    </style>
+
+    <title>Under Construction | Tristan Lundgreen</title>
+</head>
+<body>
+    <div data_container_id="navbar_target" data_element_id="navbar_element"></div>
+    <script src="/common_elements/element_importer.js"></script>
+    <img class="centered inland_empire" id="inland_empire" src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire, Tristan's Emblem">
+    <div class="under_construction_text">
+        <h1>Under construction!</h1>
+        <h2>Check back soon to see what's in store.</h2>
+        <button class="construction_home_button" id="construction_home_button" onclick=location.href="/">&lt;/return home&gt;</button>
+    </div>
+    
+
+</body>
+</html>

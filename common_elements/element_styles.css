@@ -1,5 +1,6 @@
 /* CSS for navbar */
 nav {
+    background-color: white;
     padding-top: 10px;
 }
 
@@ -8,10 +9,12 @@ nav {
     margin: 0;
     padding-bottom: 20px;
     overflow: hidden;
+
     }
 
     & .navbar li {
     float: right;
+
     }
 
     & .navbar li a{
@@ -50,7 +53,7 @@ color: black;
         width:4%; 
         height: auto; 
         float: left; 
-        margin-top: 10px; 
+        margin-top: 7px; 
         display: block;
     }
 }

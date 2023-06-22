@@ -45,26 +45,26 @@
     margin-left:-100px;
     margin-right:-100px;
     border-radius: 10px 10px 0 0;
-
-    & h2, label {
+  }
+    .contact_form h2, .contact_form label {
     color:white;
     padding-top: 25px;
     display: flex;
     flex-direction: column;
     }
 
-    & .contact_email {
+    .contact_form .contact_email {
         border-radius: 10px;
         margin-right: 475px;
     }
 
-    & .contact_form_body {
+    .contact_form .contact_form_body {
         margin-left:100px;
         margin-right:100px;
         padding-bottom: 70px;              
     }
 
-    & textarea, input {
+    .contact_form textarea, input {
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         border-radius: 5px;
@@ -72,9 +72,8 @@
         font-size: 18px;
     }
 
-    & button {
+    .contact_form  button {
         float: right;
         margin-top: 15px;
         margin-bottom: 25px;
     }
-}

@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="common_elements/element_styles.css" type="text/css">
 
     <style>
-        h1{
+        h1 {
             margin-top: 20px;
             margin-bottom: 20px;
             font-size: 40px;
         }
 
-        h2{
+        h2 {
             font-size: 30;
             margin-bottom: 20px;
         }
@@ -29,22 +29,35 @@
             margin: 5px;
         }
 
-        .work_entry{
+        .work_entry {
             margin-bottom: 20px;
         }
         
-        .work_entry li{
+        .work_entry li {
             font-family: 'IBM Plex Mono', sans-serif;                 
             font-style: normal;
             font-weight: 300;
         }
 
-        h4{
+        h4 {
             margin-top: 5px;
             margin-bottom: 15px;
             font-family: 'IBM Plex Sans', sans-serif;
-
         }
+
+        .main_body {
+            display: flex;
+        }
+
+        .column_1 {
+            flex: 1;
+            padding-right: 15px;
+        }
+
+        .column_2 {
+            padding-left: 15px;
+        }
+
     </style>
 
     <title>Tristan Lundgreen | Resume</title>
@@ -105,40 +118,57 @@
         </p>
     </div>
     <hr class="rounded_divider">
-    <div class="work_section">
-        <h2>Work Experience</h2>
-        <div class="work_entry">
-            <h3><b>Software QA Engineer</b></h3>
-            <h4>Talentpair | 09/2022 - 02/2023 (Reduction in force)</h4>
-            <ul>
-                <li>Built <b>efficient, easily maintainable</b> tests for dozens of product features using <b>Robot Framework</b> and <b>Python</b></li>
-                <li>Established <b>mobile test</b> suites based on customer usage statistics using <b>Appium</b> and <b>Sauce Labs</b></li>
-                <li>Increased <b>CI/CD test reporting</b> accuracy by building <b>retest system</b> used in <b>GitHub Actions</b></li>
-                <li><b>Increased test durability</b> and <b>decreased pipeline runtimes</b> by optimizing QA automation codebase</li>
-                <li>Worked closely with feature production teams to <b>find, report, and eliminate bugs</b> before they go live</li>
-                <li>Analyzed and addressed holes in test coverage of legacy features by implementing new documentation procedures</li>
-            </ul>
+    <div class="main_body">
+        <div class="column_1">
+            <div class="work_section">
+                <h2>Work Experience</h2>
+                <div class="work_entry">
+                    <h3><b>Software QA Engineer</b></h3>
+                    <h4>Talentpair | 09/2022 - 02/2023 (Reduction in force)</h4>
+                    <ul>
+                        <li>Built <b>efficient, easily maintainable</b> tests for dozens of product features using <b>Robot Framework</b> and <b>Python</b></li>
+                        <li>Established <b>mobile test</b> suites based on customer usage statistics using <b>Appium</b> and <b>Sauce Labs</b></li>
+                        <li>Increased <b>CI/CD test reporting</b> accuracy by building <b>retest system</b> used in <b>GitHub Actions</b></li>
+                        <li><b>Increased test durability</b> and <b>decreased pipeline runtimes</b> by optimizing QA automation codebase</li>
+                        <li>Worked closely with feature production teams to <b>find, report, and eliminate bugs</b> before they go live</li>
+                        <li>Analyzed and addressed holes in test coverage of legacy features by implementing new documentation procedures</li>
+                    </ul>
+                </div>
+                <div class="work_entry">
+                    <h3><b>Undergraduate Researcher and Technician</b></h3>
+                    <h4>University of Utah | 05/2019 - 05/2022</h4>
+                    <ul>
+                        <li>Carried out experimental design, project organization, and progress reporting</li>
+                        <li>Mathematically and qualitatively analyzed datasets derived from conducted experiments</li>
+                        <li>Created best-practices and training programs for clients</li>
+                        <li>Collected data for research on high-level industrial products</li>
+                        <li>Oversaw daily facilities function and logistics</li>
+                    </ul>
+                </div>
+                <div class="work_entry">
+                    <h3><b>Engineering Intern</b></h3>
+                    <h4>Nevada Gold Mines | Summer 2021
+                    </h4>
+                    <ul>
+                        <li>Maintained industrial database integrity</li>
+                        <li>Designed and conducted projects involving experiments, statistical analysis, and cost assessment</li>
+                        <li>Regularly presented findings to site management</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="work_entry">
-            <h3><b>Undergraduate Researcher and Technician</b></h3>
-            <h4>University of Utah | 05/2019 - 05/2022</h4>
-            <ul>
-                <li>Carried out experimental design, project organization, and progress reporting</li>
-                <li>Mathematically and qualitatively analyzed datasets derived from conducted experiments</li>
-                <li>Created best-practices and training programs for clients</li>
-                <li>Collected data for research on high-level industrial products</li>
-                <li>Oversaw daily facilities function and logistics</li>
-            </ul>
-        </div>
-        <div class="work_entry">
-            <h3><b>Engineering Intern</b></h3>
-            <h4>Nevada Gold Mines | Summer 2021
-            </h4>
-            <ul>
-                <li>Maintained industrial database integrity</li>
-                <li>Designed and conducted projects involving experiments, statistical analysis, and cost assessment</li>
-                <li>Regularly presented findings to site management</li>
-            </ul>
+        <div class="column_2">
+            <div class="education_seciton">
+                <h2>Education</h2>
+                <div class="work_entry">
+                    <h3><b>Software QA Apprenticeship</b></h3>
+                    <h4>Summer 2022</h4>
+                </div>
+                <div class="work_entry">
+                    <h3><b>Bachelor of Science, Metallurgical Engineering</b></h3>
+                    <h4>University of Utah, May 2022 - 3.4 GPA</h4>
+                </div>
+            </div>
         </div>
     </div>
 </body>

@@ -13,6 +13,7 @@
         .primary_visuals {
             display: flex;
             flex-direction: row;
+            min-width: 1090px;
         }
         .primary_visuals_info {
             margin-left: -200px;
@@ -22,7 +23,7 @@
             margin-bottom: 40px;
         }
     
-        .primary_visuals_headshot {
+        .primary_visuals_headshot { 
             display: flex;
             align-items: center;
         }
@@ -42,10 +43,18 @@
         }
 
         .intro_blurb {
-            max-width: 450px;
+            display: flex;
             margin-right: 1em;
             margin-top: 20px;
             float: right;
+        }
+
+        .introduction_2, .introduction_1{
+            max-width: 450px;
+        }
+
+        .introduction_1{
+            margin-right: 10px;
         }
 
         .socials_tree {
@@ -63,6 +72,55 @@
         .socials_tree_image {
             width:40%; 
             height: auto;
+        }
+
+        @media (max-width: 900px) {
+            .primary_visuals{
+                display: block;
+                margin-top: 15px;
+                min-width: 0px;
+            }
+
+            .primary_visuals_headshot {
+            display: none;
+            }
+
+            .primary_visuals_info {
+                flex: none;
+                display:block;
+                margin-left: 0px;
+            }
+            h1{
+                text-align: center;
+            }
+
+            .intro_blurb {
+                display: flex;
+                flex-direction: column;
+                float: none;
+                max-width: 900px;
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-right: 0px;
+            }
+
+            .introduction_1 {
+                margin-right: 0px;
+                margin-bottom: 10px;
+            }
+
+            .introduction_2, .introduction_1 {
+                max-width: 1000px;
+            }
+
+            .inland_empire {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .socials_tree {
+                padding: 0px;
+            }
         }
     </style>
 
@@ -92,12 +150,15 @@
 
     <div>
         <main>
-            <div class="intro_blurb introduction_1" id="introduction_1">
-                <p>When not at work, I volunteer my professional skills to train people interested in starting a career in QA. In addition, I might be found pursuing any one of my creative passions, including illustration, photography, audio-video work, writing, graphic design, and programming, or supporting local and online communities.</p>
-            </div>
-            <div class="intro_blurb introduction_2" id="introduction_2">
-                <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. I have extensive experience building QA foundations from the ground up in both SaaS and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated Web UI and API automation.</p>
-            </div>
+            <span class="intro_blurb">
+                <div class="introduction_1" id="introduction_1">
+                    <p>A University of Utah graduate, I specialize in creating efficient, highly maintainable software test automation using Robot Framework and Python. I have extensive experience building QA foundations from the ground up in both SaaS and fintech sectors where I've created rigorous testing standards, detailed documentation, and sophisticated web UI, mobile, and API automation.</p>
+                </div>
+                <div class="introduction_2" id="introduction_2">
+                    <p>When not at work, I volunteer my professional skills to train up-and-coming QA professionals. In addition, I might be found pursuing any one of my creative passions, including illustration, photography, audio-video work, writing, graphic design, and programming, or supporting local and online communities.</p>
+                </div>
+            </span>
+            
         </main>
     </div>
     <div data_container_id="contact_form_target" data_element_id="contact_form_element"></div>

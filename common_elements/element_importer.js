@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
         var sharedElementId = scripts[i].getAttribute("data_element_id");
         if (containerId) {
           containerData.push({ containerId: containerId, sharedElementId: sharedElementId });
-          console.log(containerData)
         }
       }
     }

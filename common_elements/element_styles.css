@@ -29,6 +29,7 @@
   .navbar_links {
     display: flex;
     align-items: center;
+    color: black;
   }
   
   .navbar_links a {
@@ -92,5 +93,8 @@
     margin-left:25px;
     margin-right:25px;
     padding-bottom: 70px;              
+}
+.contact_form button {
+  color: black;
 }
 }

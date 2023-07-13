@@ -15,7 +15,7 @@
   
   .navbar_logo img {
     width: 43px;
-    height: 40px;
+    height: 43px;
     margin-right: 10px;
     cursor: pointer;
   }
@@ -48,10 +48,10 @@
 }
 
 .contact_form h2, .contact_form label {
-color:white;
-padding-top: 25px;
-display: flex;
-flex-direction: column;
+  color:white;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact_form .contact_email {
@@ -83,10 +83,11 @@ flex-direction: column;
   .contact_form .contact_email {
     margin-right: 0px;
   }
-  .contact_form {
 
+  .contact_form {
     margin: 0px;
   }
+  
   .contact_form .contact_form_body {
     margin-left:25px;
     margin-right:25px;

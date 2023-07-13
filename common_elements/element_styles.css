@@ -38,6 +38,10 @@
     color: black;
   }
 
+  @media (max-width: 900px) {
+    .navbar_links a {padding-top: 2px;
+  }
+
 /* CSS for contact form */
 .contact_form {
   clear:both;

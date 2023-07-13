@@ -29,11 +29,11 @@
             margin: 5px;
         }
 
-        .work_entry {
+        .work_entry, .project_entry {
             margin-bottom: 20px;
         }
         
-        .work_entry li {
+        .work_entry li, .project_entry li {
             font-family: 'IBM Plex Mono', sans-serif;                 
             font-style: normal;
             font-weight: 300;
@@ -47,15 +47,20 @@
 
         .main_body {
             display: flex;
+            flex: 1;
         }
 
         .column_1 {
-            flex: 1;
+            max-width: 50%;
             padding-right: 15px;
         }
 
         .column_2 {
             padding-left: 15px;
+        }
+
+        hr.column_divider {
+            max-width: 400px;
         }
 
     </style>
@@ -160,13 +165,37 @@
         <div class="column_2">
             <div class="education_seciton">
                 <h2>Education</h2>
-                <div class="work_entry">
+                <div class="education_entry">
                     <h3><b>Software QA Apprenticeship</b></h3>
                     <h4>Summer 2022</h4>
                 </div>
-                <div class="work_entry">
+                <div class="education_entry">
                     <h3><b>Bachelor of Science, Metallurgical Engineering</b></h3>
-                    <h4>University of Utah, May 2022 - 3.4 GPA</h4>
+                    <h4>University of Utah - May 2022 - 3.4 GPA</h4>
+                </div>
+            </div>
+            <hr class="rounded_divider column_divider">
+            <div class="project_section">
+                <h2>Personal Projects</h2>
+                <div class="project_entry">
+                    <h3><b>Functionality Test Automation</b> - DuckDuckGo</h3>
+                    <ul>
+                        <li>Wrote <b>Python</b> scripts using <b>Selenium Webdriver</b> to run automated tests on search features</li>
+                        <li>Automated logic to account for <b>A/B testing</b></li>
+                    </ul>
+                </div>
+                <div class="project_entry">
+                    <h3><b>Manual Quality Assurance Volunteer</b> - Anonymous Client</h3>
+                    <ul>
+                        <li>Investigated and filed <b>100+ detailed bug reports</b> for server emulation developers</li>
+                    </ul>
+                </div>
+                <div class="project_entry">
+                    <h3><b>Manual Test Scripting</b> - macOS Icons</h3>
+                    <ul>
+                        <li>Created <b>manual test case scripts</b> for community project in <b>Testpad</b></li>
+                        <li>Covered <b>functional</b> and <b>exploratory</b> domains</li>
+                    </ul>
                 </div>
             </div>
         </div>

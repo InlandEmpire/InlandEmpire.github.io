@@ -94,3 +94,16 @@ button {
     margin-right: auto;
     text-align: center;
 }
+
+.hide_mobile {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .hide_desktop {
+        display: block;
+    }
+    .hide_mobile {
+        display: none;
+    }
+}

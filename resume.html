@@ -73,19 +73,33 @@
             margin-top: 20px;
         }
 
-        .ref_person .socials_tree_button{
+        .ref_person .socials_tree_button {
             padding-top: 5px;
             padding-left: 10px;
         }
 
+        .title_link .socials_tree_button {
+            padding-left: 15px;
+            padding-top: 11px;
+        }
+
+        .title_link .socials_tree_button img {
+            width: 110%; 
+            height: auto;
+        }
+
+        
     </style>
 
-    <title>Tristan Lundgreen | Resume</title>
+    <title>Tristan Lundgreen | Résumé</title>
 </head>
 <body>
     <div data_container_id="navbar_target" data_element_id="navbar_element"></div>
     <script src="/common_elements/element_importer.js"></script>
-    <h1>Tristan Lundgreen</h1>
+    <div class="ref_person title_link">
+        <h1>Tristan Lundgreen</h1>
+        <a class="socials_tree_button grow" target="_blank" rel="noopener noreferrer" id="melissamontanez_linkedin_link" href="https://www.linkedin.com/in/melissamontanezeng/"><img class="socials_tree_image" alt="Link to Tristan's LinkedIn" src="assets/iconmonstr-linkedin-3.svg"></a>
+    </div>
     <h2>Software Quality Assurance Engineer | Quality first in design, automation, and life.</h2>
     <p>As a quality assurance engineer with professional training, certifications, and experience, I understand the importance of delivering high-quality products. Emphasis on quality is a philosophy I've taken to heart, applying it in all areas of my life. I specialize in creating time-efficient, highly maintainable mobile and desktop test automation using Python and Robot Framework while employing both manual and API testing to catch issues before they ever hit production. I work with agile-oriented teams in full-time positions.</p>
     <hr class="rounded_divider">
@@ -281,5 +295,6 @@
                 <p><b>Award:</b> Crus Scholar, University of Utah - 2019</p>
             </div>
     </div>
+    <div data_container_id="contact_form_target" data_element_id="contact_form_element"></div>
 </body>
 </html>

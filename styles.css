@@ -56,6 +56,15 @@ h3, p, label {
         }
     }
 
+hr.rounded_divider{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid #121212;
+    border-radius: 5px;
+    max-width: 900px;
+  }
+
 .invisible_break {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -84,4 +93,17 @@ button {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.hide_mobile {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .hide_desktop {
+        display: block;
+    }
+    .hide_mobile {
+        display: none;
+    }
 }

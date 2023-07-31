@@ -1,11 +1,15 @@
 /* CSS for navbar */
 .navbar {
+    margin-top: 10px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     font-family: 'IBM Plex Sans', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    color: #212121;
   }
   
   .navbar_logo {
@@ -29,13 +33,13 @@
   .navbar_links {
     display: flex;
     align-items: center;
-    color: black;
+    color: #212121;
   }
   
   .navbar_links a {
     margin-right: 15px;
     text-decoration: none;
-    color: black;
+    color: #212121;
   }
 
   @media (max-width: 900px) {
@@ -48,7 +52,7 @@
 .contact_form {
   clear:both;
   height: 100%;
-  background-color: #121212;
+  background-color: #212121;
   border-radius: 10px 10px 0 0;
 }
 

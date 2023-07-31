@@ -99,11 +99,20 @@ button {
     display: none;
 }
 
+@media (max-width: 1279px) {
+    body {
+        max-width: calc(100% - 50px);
+    }
+  }
+
 @media (max-width: 900px) {
     .hide_desktop {
         display: block;
     }
     .hide_mobile {
         display: none;
+    }
+    body {
+        max-width: 100%;
     }
 }

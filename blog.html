@@ -13,31 +13,31 @@
 
     <style>
         body {
-            background-color: #212121;;
-            color: white;
+            background-color: white;
+            /* background-color: #212121; */
+            color: #212121;
         }
 
-        .navbar {
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
         h1 {
-            color: white;
+
             padding-top: 50px;
             padding-bottom: 25px;
-           font-size: 32px;
+            font-size: 32px;
+            display: flex;
+            justify-content: center;
         }
 
         h2 {
-            color: white;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 50px;
         }
 
         .everything_but_injection {
             /* background-color: #424242; */
             padding-left: 50px;
             padding-right: 50px;
-            border-radius: 10px;
-            box-shadow: 20;
+
         }
 
         hr {
@@ -45,14 +45,66 @@
         }
 
         .blog_entry {
-            border-style: solid;
-            border-radius: 10px;
-            border-color: white;
-            background-color: #616161;
+            /* background-color: #616161; */
             border-width: 1px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        img {
+            max-width: 70%;
+            height: auto;
+            width: auto\9; /* ie8 */
+        }
 
+        /* Container holding the image and the text */
+        .blog_entry {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .image_container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .rounded_image {
+            width: 100%;
+            height: auto;
+        }
+
+        .entry_text, .entry_tag {
+            color: white;
+            text-align: left;
+            padding-bottom: 10px;
+        }
+
+        .entry_text_block {
+            display: block;
+            position: absolute;
+            bottom: 3%;
+            left: 17%;
+            width: auto;
+            justify-content: left;
+        }
+
+        .entry_tags {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .entry_tag {
+            border: white;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 20px;
+            margin-right: 10px;
+            padding: 5px;
 
         }
+
     </style>
 </head>
 <body>
@@ -61,13 +113,23 @@
         <div class="everything_but_injection">
             <h1>blog.</h1>
             <h2>Write-ups, break-downs, analysis.</h2>
-            <hr class="rounded_divider column_divider">
-            <div class="blog_entries">
-                <div class="blog_entry">
-                    <h3>title</h3>
-
+            <hr class="rounded_divider column_divider" style="margin-top: 0px; margin-bottom: 50px">
+            <div class="blog_entry">
+                <div class="image_container">
+                    <div class="entry_text_block">
+                        <h3 class="entry_text entry_date">December, 2021</h3>
+                        <h3 class="entry_text entry_title">Internet Spaceships Are Serious Business</h3>
+                        <h3 class="entry_text entry_description">How does EVE Online succeed where all others fail?</h3>
+                        <div class="entry_tags">
+                            <h4 class="entry_tag entry_tag_1">tag1</h4>
+                            <h4 class="entry_tag entry_tag_2">tag2</h4>
+                            <h4 class="entry_tag entry_tag_3">tag3</h4>
+                        </div>
+                    </div>
+                    <img class="rounded_image" src="Assets/blog/ISSASB_thumb.webp" alt="Test">
                 </div>
-                <p>schmuck</p>
+            </div>
+            
             </div>
             
         </div>

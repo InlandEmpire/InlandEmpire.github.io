@@ -74,10 +74,26 @@
             height: auto;
         }
 
+        .entry_title {
+            font-size: 1.5vw;
+            font-family: 'IBM Plex Mono', sans-serif;
+            font-style:normal;
+            font-weight:100;
+            line-height: 1.0;
+            background-color: black;
+            padding: 5px;
+        }
+
         .entry_text, .entry_tag {
             color: white;
             text-align: left;
-            padding-bottom: 10px;
+            margin-bottom: 5px;
+            text-shadow: -1px -1px 1px black;
+        }
+
+        .entry_date, .entry_description {
+            font-size: 1.2vw;
+            font-family: 'IBM Plex Sans', sans-serif;
         }
 
         .entry_text_block {
@@ -102,7 +118,18 @@
             border-radius: 20px;
             margin-right: 10px;
             padding: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-family: 'IBM Plex sans', sans-serif;
+            font-size: .8vw;
+        }
 
+        .blog-grow { 
+            transition: all .2s ease-in-out; 
+        }
+    
+        .blog-grow:hover { 
+            transform: scale(1.02); 
         }
 
     </style>
@@ -115,15 +142,15 @@
             <h2>Write-ups, break-downs, analysis.</h2>
             <hr class="rounded_divider column_divider" style="margin-top: 0px; margin-bottom: 50px">
             <div class="blog_entry">
-                <div class="image_container">
+                <div class="image_container blog-grow" onclick="location.href='#';" style="cursor: pointer;">
                     <div class="entry_text_block">
                         <h3 class="entry_text entry_date">December, 2021</h3>
                         <h3 class="entry_text entry_title">Internet Spaceships Are Serious Business</h3>
                         <h3 class="entry_text entry_description">How does EVE Online succeed where all others fail?</h3>
                         <div class="entry_tags">
-                            <h4 class="entry_tag entry_tag_1">tag1</h4>
-                            <h4 class="entry_tag entry_tag_2">tag2</h4>
-                            <h4 class="entry_tag entry_tag_3">tag3</h4>
+                            <h4 class="entry_tag entry_tag_1">gaming</h4>
+                            <h4 class="entry_tag entry_tag_2">analysis</h4>
+                            <h4 class="entry_tag entry_tag_3">opinion</h4>
                         </div>
                     </div>
                     <img class="rounded_image" src="Assets/blog/ISSASB_thumb.webp" alt="Test">

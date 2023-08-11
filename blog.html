@@ -8,131 +8,11 @@
     <link href="https://fonts.cdnfonts.com/css/ibm-plex-mono" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="common_elements/element_styles.css" type="text/css">
+    <link rel="stylesheet" href="blog.css" type="text/css">
     <link rel="icon" type="image/x-icon" href="favicon.jpg">
+
     <title>Tristan Lundgreen | Blog</title>
 
-    <style>
-        body {
-            background-color: white;
-            /* background-color: #212121; */
-            color: #212121;
-        }
-
-        h1 {
-
-            padding-top: 50px;
-            padding-bottom: 25px;
-            font-size: 32px;
-            display: flex;
-            justify-content: center;
-        }
-
-        h2 {
-            display: flex;
-            justify-content: center;
-            padding-bottom: 50px;
-        }
-
-        .everything_but_injection {
-            /* background-color: #424242; */
-            padding-left: 50px;
-            padding-right: 50px;
-
-        }
-
-        hr {
-            margin-bottom: 25;
-        }
-
-        .blog_entry {
-            /* background-color: #616161; */
-            border-width: 1px;
-            display: flex;
-            justify-content: center;
-        }
-        
-        img {
-            max-width: 70%;
-            height: auto;
-            width: auto\9; /* ie8 */
-        }
-
-        /* Container holding the image and the text */
-        .blog_entry {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-
-        .image_container {
-            position: relative;
-            display: inline-block;
-        }
-
-        .rounded_image {
-            width: 100%;
-            height: auto;
-        }
-
-        .entry_title {
-            font-size: 1.5vw;
-            font-family: 'IBM Plex Mono', sans-serif;
-            font-style:normal;
-            font-weight:100;
-            line-height: 1.0;
-            background-color: black;
-            padding: 5px;
-        }
-
-        .entry_text, .entry_tag {
-            color: white;
-            text-align: left;
-            margin-bottom: 5px;
-            text-shadow: -1px -1px 1px black;
-        }
-
-        .entry_date, .entry_description {
-            font-size: 1.2vw;
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
-
-        .entry_text_block {
-            display: block;
-            position: absolute;
-            bottom: 3%;
-            left: 17%;
-            width: auto;
-            justify-content: left;
-        }
-
-        .entry_tags {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .entry_tag {
-            border: white;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 20px;
-            margin-right: 10px;
-            padding: 5px;
-            padding-left: 8px;
-            padding-right: 8px;
-            font-family: 'IBM Plex sans', sans-serif;
-            font-size: .8vw;
-        }
-
-        .blog-grow { 
-            transition: all .2s ease-in-out; 
-        }
-    
-        .blog-grow:hover { 
-            transform: scale(1.02); 
-        }
-
-    </style>
 </head>
 <body>
     <div data_container_id="navbar_target" data_element_id="navbar_element"></div>
@@ -142,7 +22,7 @@
             <h2>Write-ups, break-downs, analysis.</h2>
             <hr class="rounded_divider column_divider" style="margin-top: 0px; margin-bottom: 50px">
             <div class="blog_entry">
-                <div class="image_container blog-grow" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="image_container blog-grow" onclick="location.href='#';">
                     <div class="entry_text_block">
                         <h3 class="entry_text entry_date">December, 2021</h3>
                         <h3 class="entry_text entry_title">Internet Spaceships Are Serious Business</h3>
@@ -153,7 +33,7 @@
                             <h4 class="entry_tag entry_tag_3">opinion</h4>
                         </div>
                     </div>
-                    <img class="rounded_image" src="Assets/blog/ISSASB_thumb.webp" alt="Test">
+                    <img class="rounded_image" src="Assets/blog/ISSASB_thumb.webp" alt="Test" style="cursor: pointer;">
                 </div>
             </div>
             

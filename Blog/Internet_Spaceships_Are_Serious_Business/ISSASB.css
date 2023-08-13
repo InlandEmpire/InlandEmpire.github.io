@@ -97,6 +97,7 @@ p, b, a, em{
 .standing_para {
     margin-bottom: 10px;
 }
+
 .essay_text{
     margin-left: 15px;
     margin-right: 15px;
@@ -210,6 +211,7 @@ h4 {
 
     .jita_image {
         margin-left: 0px;
+        margin-right: 0px;
         display: grid;
         grid-template-columns: 1;
         justify-content: center;
@@ -232,4 +234,18 @@ h4 {
     .doub_row_citation {
         display: flex;
     }
+
+    .outro {
+        display: block;
+    }
+
+    .outro_portrait {
+        max-height: 150px;
+    }
+
+    .heading_image {
+        background-attachment: local;
+    }
+
+    
 }

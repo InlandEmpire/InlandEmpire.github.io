@@ -132,8 +132,18 @@ hr {
         font-size: 3.7vw;
     }
 
+    .entry_title {
+        font-size: 3.2vw;
+    }
+    .entry_date, .entry_description {
+        font-size: 3vw;
+    }
+
+    .entry_tag {
+        font-size: 2vw;
+    }
     .everything_but_injection {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
   }

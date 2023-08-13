@@ -21,6 +21,18 @@ h1 {
     margin: 0 auto; /* Center horizontally */
 }
 
+.double_row {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.music_embed {
+    /* margin-top: 25px; */
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
 .foreword {
     background-color: #424242;
     padding-top: 10px;
@@ -81,4 +93,25 @@ p, b, a{
 
 .standing_para {
     margin-bottom: 10px;
+}
+
+.apple_music_embed {
+    border-radius: 5px;
+    
+}
+
+h4 {
+    margin-top: 5px;
+    color: white;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+    padding: 10px;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+    font-family: 'IBM Plex sans', sans-serif;
+    font-size: 9pt;
+    display: flex;
 }

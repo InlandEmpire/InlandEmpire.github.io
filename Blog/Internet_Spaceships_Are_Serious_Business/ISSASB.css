@@ -80,7 +80,6 @@ p, b, a, em{
   }
 
 .essay_block, .outro {
-    /* background-color: black; */
     background-color: #222526;
     display: flow-root;
     flex-wrap: wrap;

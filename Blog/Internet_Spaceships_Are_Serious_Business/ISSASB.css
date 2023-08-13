@@ -1,0 +1,53 @@
+body {
+    background-color: #131516;
+}
+
+.navbar {
+    filter: invert(100%);
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 3.2vw;
+}
+
+.foreword {
+    background-color: #424242;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p, b, a{
+    color: white;
+}
+
+.in_text_link {
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading_image { 
+    /* The image used */
+    background-image: url("Amarr_Space.jpeg");
+  
+    /* Set a specific height */
+    min-height: 80px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Styles */
+    max-width: 1280px;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+.long_div{
+    padding-bottom: 1000px;
+}

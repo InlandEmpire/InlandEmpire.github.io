@@ -33,7 +33,7 @@ hr {
     justify-content: center;
 }
 
-img {
+.entry_image {
     max-width: 70%;
     height: auto;
     width: auto\9;
@@ -113,3 +113,22 @@ img {
 .blog-grow:hover { 
     transform: scale(1.02); 
 }
+
+/* Mobile Changes */
+
+@media (max-width: 900px) {
+    .entry_image {
+        max-width: 900px;
+        height: auto;
+        width: auto\9;
+    }
+
+    .entry_text_block {
+        bottom: 3%;
+        left: 3%;
+    }
+
+    h2 {
+        font-size: 3.7vw;
+    }
+  }

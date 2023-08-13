@@ -131,4 +131,9 @@ hr {
     h2 {
         font-size: 3.7vw;
     }
+
+    .everything_but_injection {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
   }

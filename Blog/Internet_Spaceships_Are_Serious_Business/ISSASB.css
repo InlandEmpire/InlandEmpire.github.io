@@ -215,6 +215,10 @@ h4 {
         justify-content: center;
     }
 
+    .jita_image img{
+        max-width: 340px;
+    }
+
     .centered_image_blurb img {
         object-fit: contain;
         height: 100%;

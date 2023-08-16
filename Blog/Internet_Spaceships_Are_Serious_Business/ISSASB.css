@@ -248,5 +248,12 @@ h4 {
         background-attachment: local;
     }
 
-    
+    h1 {
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 5.3vw;
+    }
 }

@@ -64,6 +64,7 @@ hr {
     line-height: 1.0;
     background-color: black;
     padding: 5px;
+    max-width: 750px;
 }
 
 .entry_text, .entry_tag {

@@ -55,12 +55,11 @@ h2, h3 {
 
 .socials_tree_button {
     padding: 20px;
-    width:200%; 
+    width:200%;
 }
 
 .socials_tree_image {
-    width:40%; 
-    height: auto;
+    max-width: 26px;
 }
 
 .tagline {

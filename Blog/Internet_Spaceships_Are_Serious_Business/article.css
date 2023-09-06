@@ -257,3 +257,7 @@ h4 {
         font-size: 5.3vw;
     }
 }
+
+.hide_desktop {
+    display: none;
+}

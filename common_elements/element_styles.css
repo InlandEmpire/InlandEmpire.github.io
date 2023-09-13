@@ -66,6 +66,7 @@
 .contact_form .contact_email {
     border-radius: 10px;
     margin-right: 475px;
+    padding-top: 15px;
 }
 
 .contact_form .contact_form_body {
@@ -88,6 +89,11 @@
     margin-bottom: 25px;
     }
 
+.contact_form .h3_like_label {
+  color: white;
+  margin-bottom: 8px;
+}
+
 @media (max-width: 900px) {
   .contact_form .contact_email {
     margin-right: 0px;
@@ -107,6 +113,3 @@
 }
 }
 
-.h3_like_label {
-  color: white;
-}

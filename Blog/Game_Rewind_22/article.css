@@ -1,0 +1,119 @@
+body {
+    background-color: #131516;
+    /* background-color: black; */
+}
+
+.navbar {
+    filter: invert(100%);
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 3.2vw;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.foreword, .heading_image, .essay_block, .heading_image, .in_text_hr, .centered_image, .outro {
+    max-width: 800px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.foreword {
+    background-color: #424242;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.foreword p {
+    max-width: 770px;
+}
+
+p, b, a, em{
+    color: white;
+}
+
+.essay_block, .outro {
+    background-color: #222526;
+    display: flow-root;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0px 0px 5px 5px;
+    max-width: 800px;
+}
+
+.essay_text {
+    max-width: 770px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.standing_para {
+    margin-bottom: 10px;
+}
+
+.essay_text{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.review_title_section {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #424242;
+    margin-bottom: 25px;
+}
+
+.review_title_section h2 {
+    margin-left: 20px;
+}
+
+.review_title_section img {
+    max-width: 250px;
+}
+
+.hide_desktop {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .foreword, .essay_block, .heading_image {
+        max-width: 770px
+    }
+
+    .foreword p{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+      .hide_mobile {
+        display: none;
+    }
+
+    .doub_row_citation {
+        display: flex;
+    }
+
+    h1 {
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 5.3vw;
+    }
+}

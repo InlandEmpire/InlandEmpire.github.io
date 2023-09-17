@@ -67,27 +67,12 @@ p, b, a, em{
     margin-right: 15px;
 }
 
-.review_title_section {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: #424242;
-    margin-bottom: 25px;
-}
-
-.review_title_section h2 {
-    margin-left: 20px;
-}
-
-.review_title_section img {
-    max-width: 250px;
-}
-
 .hide_desktop {
     display: none;
+}
+
+.intro_block {
+    margin-bottom: 15px;
 }
 
 @media (max-width: 800px) {
@@ -116,4 +101,87 @@ p, b, a, em{
         margin-bottom: 15px;
         font-size: 5.3vw;
     }
+}
+
+/* Blog entry section*/
+.blog_entry {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image_container {
+    position: relative;
+    display: inline-block;
+}
+
+.rounded_image {
+    width: 100%;
+    height: auto;
+}
+
+.entry_title span{
+    font-size: 1.5vw;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-style:normal;
+    font-weight:100;
+    line-height: 1.0;
+    padding: 5px;
+    max-width: 750px;
+    background-color: black;
+    color: white;
+}
+
+.entry_text, .entry_tag {
+    color: white;
+    text-align: left;
+    margin-bottom: 5px;
+    text-shadow: -1px -1px 1px black;
+}
+
+.entry_date {
+    margin-bottom: 15px;
+}
+
+.entry_title {
+    margin-bottom: 15px;
+}
+
+.entry_date span{
+    font-size: 1.2vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: black;
+    padding: 5px;
+    max-width: 750px;
+    color: white;
+}
+
+.entry_text_block {
+    display: block;
+    position: absolute;
+    bottom: 3%;
+    left: 17%;
+    width: auto;
+    justify-content: left;
+}
+
+.entry_tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entry_tag {
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'IBM Plex sans', sans-serif;
+    font-size: .8vw;
+    background-color: black;
 }

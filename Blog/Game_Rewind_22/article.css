@@ -102,6 +102,7 @@ em {
 .rounded_image {
     width: 100%;
     height: auto;
+    margin-bottom: 15px;
 }
 
 .entry_title span {
@@ -148,6 +149,7 @@ em {
     left: 17%;
     width: auto;
     justify-content: left;
+    margin-bottom: 15px;
 }
 
 .entry_tags {

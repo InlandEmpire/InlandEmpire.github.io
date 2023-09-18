@@ -21,9 +21,16 @@ h2 {
     margin-bottom: 10px;
 }
 
-.foreword, .heading_image, .essay_block, .heading_image, .in_text_hr, .centered_image, .outro {
+.foreword,
+.heading_image,
+.essay_block,
+.heading_image,
+.in_text_hr,
+.centered_image,
+.outro {
     max-width: 800px;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
+    /* Center horizontally */
 }
 
 .foreword {
@@ -39,7 +46,10 @@ h2 {
     max-width: 770px;
 }
 
-p, b, a, em{
+p,
+b,
+a,
+em {
     color: white;
 }
 
@@ -51,6 +61,7 @@ p, b, a, em{
     border-radius: 0px 0px 5px 5px;
     max-width: 800px;
     border-radius: 5px;
+    margin-bottom: 25px;
 }
 
 .essay_text {
@@ -63,7 +74,7 @@ p, b, a, em{
     margin-bottom: 10px;
 }
 
-.essay_text{
+.essay_text {
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -74,34 +85,6 @@ p, b, a, em{
 
 .intro_block {
     margin-bottom: 15px;
-}
-
-@media (max-width: 800px) {
-    .foreword, .essay_block, .heading_image {
-        max-width: 770px
-    }
-
-    .foreword p{
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-      .hide_mobile {
-        display: none;
-    }
-
-    .doub_row_citation {
-        display: flex;
-    }
-
-    h1 {
-        align-items: center;
-        text-align: center;
-        color: white;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        font-size: 5.3vw;
-    }
 }
 
 /* Blog entry section*/
@@ -121,11 +104,11 @@ p, b, a, em{
     height: auto;
 }
 
-.entry_title span{
+.entry_title span {
     font-size: 1.5vw;
     font-family: 'IBM Plex Mono', sans-serif;
-    font-style:normal;
-    font-weight:100;
+    font-style: normal;
+    font-weight: 100;
     line-height: 1.0;
     padding: 5px;
     max-width: 750px;
@@ -133,7 +116,8 @@ p, b, a, em{
     color: white;
 }
 
-.entry_text, .entry_tag {
+.entry_text,
+.entry_tag {
     color: white;
     text-align: left;
     margin-bottom: 5px;
@@ -148,7 +132,7 @@ p, b, a, em{
     margin-bottom: 15px;
 }
 
-.entry_date span{
+.entry_date span {
     font-size: 1.2vw;
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: black;
@@ -170,7 +154,7 @@ p, b, a, em{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .entry_tag {
@@ -185,4 +169,59 @@ p, b, a, em{
     font-family: 'IBM Plex sans', sans-serif;
     font-size: .8vw;
     background-color: black;
+}
+
+@media (max-width: 800px) {
+
+    .foreword,
+    .essay_block,
+    .heading_image {
+        max-width: 770px
+    }
+
+    .foreword p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .hide_mobile {
+        display: none;
+    }
+
+    .doub_row_citation {
+        display: flex;
+    }
+
+    h1 {
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 5.3vw;
+    }
+
+    h2 {
+        font-size: 3.7vw;
+    }
+
+    .entry_title {
+        font-size: 3.2vw;
+    }
+
+    .entry_date {
+        font-size: 3vw;
+    }
+
+    .entry_tag {
+        font-size: 2vw;
+    }
+
+    .entry_title span {
+        font-size: 3.2vw;
+    }
+
+    .entry_date span {
+        font-size: 3.2vw;
+    }
 }

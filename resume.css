@@ -18,12 +18,14 @@ h2 {
     margin: 5px;
 }
 
-.work_entry, .project_entry {
+.work_entry,
+.project_entry {
     margin-bottom: 20px;
 }
 
-.work_entry li, .project_entry li {
-    font-family: 'IBM Plex Mono', sans-serif;                 
+.work_entry li,
+.project_entry li {
+    font-family: 'IBM Plex Mono', sans-serif;
     font-style: normal;
     font-weight: 300;
 }
@@ -52,7 +54,8 @@ hr.column_divider {
     max-width: 400px;
 }
 
-.certs_section p, .awards_section p{
+.certs_section p,
+.awards_section p {
     margin-bottom: 3px;
 }
 
@@ -73,12 +76,12 @@ hr.column_divider {
 }
 
 .title_link .socials_tree_button img {
-    width: 110%; 
+    width: 110%;
     height: auto;
 }
 
 @media (max-width: 900px) {
-    .everything_but_injection{
+    .everything_but_injection {
         display: flex;
         flex-direction: column;
         float: none;

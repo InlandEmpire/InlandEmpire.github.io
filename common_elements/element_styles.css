@@ -1,93 +1,95 @@
 /* CSS for navbar */
 .navbar {
-    margin-top: 10px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    background-color: white;
-    border-radius: 10px;
-    color: #212121;
-  }
-  
-  .navbar_logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar_logo img {
-    width: 43px;
-    height: 43px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .navbar_logo span {
-    font-weight: bold;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  .navbar_links {
-    display: flex;
-    align-items: center;
-    color: #212121;
-  }
-  
-  .navbar_links a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #212121;
-  }
+  margin-top: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  color: #212121;
+}
 
-  @media (max-width: 900px) {
-    .navbar_links a {
-      padding-top: 4px;
-    }
+.navbar_logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_logo img {
+  width: 43px;
+  height: 43px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navbar_logo span {
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar_links {
+  display: flex;
+  align-items: center;
+  color: #212121;
+}
+
+.navbar_links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #212121;
+}
+
+@media (max-width: 900px) {
+  .navbar_links a {
+    padding-top: 4px;
   }
+}
 
 /* CSS for contact form */
 .contact_form {
-  clear:both;
+  clear: both;
   height: 100%;
   background-color: #212121;
   border-radius: 10px 10px 0 0;
 }
 
-.contact_form h2, .contact_form label {
-  color:white;
+.contact_form h2,
+.contact_form label {
+  color: white;
   padding-top: 25px;
   display: flex;
   flex-direction: column;
 }
 
 .contact_form .contact_email {
-    border-radius: 10px;
-    margin-right: 475px;
-    padding-top: 15px;
+  border-radius: 10px;
+  margin-right: 475px;
+  padding-top: 15px;
 }
 
 .contact_form .contact_form_body {
-    margin-left:100px;
-    margin-right:100px;
-    padding-bottom: 70px;              
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 70px;
 }
 
-.contact_form textarea, input {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 5px;
-    border-style: none;
-    font-size: 18px;
+.contact_form textarea,
+input {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 18px;
 }
 
-.contact_form  button {
-    float: right;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    }
+.contact_form button {
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
 
 .contact_form .h3_like_label {
   color: white;
@@ -102,14 +104,14 @@
   .contact_form {
     margin: 0px;
   }
-  
-  .contact_form .contact_form_body {
-    margin-left:25px;
-    margin-right:25px;
-    padding-bottom: 70px;              
-}
-.contact_form button {
-  color: black;
-}
-}
 
+  .contact_form .contact_form_body {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 70px;
+  }
+
+  .contact_form button {
+    color: black;
+  }
+}

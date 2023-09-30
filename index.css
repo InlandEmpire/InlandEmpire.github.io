@@ -3,6 +3,7 @@
     flex-direction: row;
     min-width: 1090px;
 }
+
 .primary_visuals_info {
     margin-left: -200px;
 }
@@ -11,7 +12,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-.primary_visuals_headshot { 
+.primary_visuals_headshot {
     display: flex;
     align-items: center;
 }
@@ -22,7 +23,8 @@ h1 {
     margin-bottom: 30px;
 }
 
-h2, h3 {
+h2,
+h3 {
     margin-bottom: 10px;
 }
 
@@ -37,11 +39,12 @@ h2, h3 {
     float: right;
 }
 
-.introduction_2, .introduction_1{
+.introduction_2,
+.introduction_1 {
     max-width: 450px;
 }
 
-.introduction_1{
+.introduction_1 {
     margin-right: 10px;
 }
 
@@ -55,7 +58,7 @@ h2, h3 {
 
 .socials_tree_button {
     padding: 20px;
-    width:200%;
+    width: 200%;
 }
 
 .socials_tree_image {
@@ -67,22 +70,23 @@ h2, h3 {
 }
 
 @media (max-width: 900px) {
-    .primary_visuals{
+    .primary_visuals {
         display: block;
         margin-top: 15px;
         min-width: 0px;
     }
 
     .primary_visuals_headshot {
-    display: none;
+        display: none;
     }
 
     .primary_visuals_info {
         flex: none;
-        display:block;
+        display: block;
         margin-left: 0px;
     }
-    h1{
+
+    h1 {
         text-align: center;
     }
 
@@ -101,7 +105,8 @@ h2, h3 {
         margin-bottom: 10px;
     }
 
-    .introduction_2, .introduction_1 {
+    .introduction_2,
+    .introduction_1 {
         max-width: 1000px;
     }
 

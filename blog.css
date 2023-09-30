@@ -58,11 +58,11 @@ hr {
     height: auto;
 }
 
-.entry_title span{
+.entry_title span {
     font-size: 1.5vw;
     font-family: 'IBM Plex Mono', sans-serif;
-    font-style:normal;
-    font-weight:100;
+    font-style: normal;
+    font-weight: 100;
     line-height: 1.0;
     color: white;
     background-color: black;
@@ -70,14 +70,16 @@ hr {
     max-width: 750px;
 }
 
-.entry_text, .entry_tag {
+.entry_text,
+.entry_tag {
     color: white;
     text-align: left;
     margin-bottom: 5px;
     text-shadow: -1px -1px 1px black;
 }
 
-.entry_date, .entry_description {
+.entry_date,
+.entry_description {
     font-size: 1.2vw;
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -110,12 +112,12 @@ hr {
     font-size: .8vw;
 }
 
-.blog-grow { 
-    transition: all .2s ease-in-out; 
+.blog-grow {
+    transition: all .2s ease-in-out;
 }
 
-.blog-grow:hover { 
-    transform: scale(1.02); 
+.blog-grow:hover {
+    transform: scale(1.02);
 }
 
 /* Mobile Changes */
@@ -139,15 +141,18 @@ hr {
     .entry_title {
         font-size: 3.2vw;
     }
-    .entry_date, .entry_description {
+
+    .entry_date,
+    .entry_description {
         font-size: 3vw;
     }
 
     .entry_tag {
         font-size: 2vw;
     }
+
     .everything_but_injection {
         padding-left: 15px;
         padding-right: 15px;
     }
-  }
+}

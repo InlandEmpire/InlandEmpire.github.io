@@ -32,13 +32,13 @@ h2 {
     /* Center horizontally */
 }
 
-.heading_image { 
+.heading_image {
     /* The image used */
     background-image: url("banner.webp");
-    
+
     /* Set a specific height */
-    min-height: 80px; 
-  
+    min-height: 80px;
+
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ h2 {
     /* Styles */
     max-width: 800px;
     border-radius: 5px 5px 0px 0px;
-  }
+}
 
 .foreword {
     background-color: #424242;

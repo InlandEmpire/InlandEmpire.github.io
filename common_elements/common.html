@@ -1,46 +1,45 @@
 <body>
-    
-<!-- Navbar -->
-<div data_element_id="navbar_element">
-<nav class="navbar">
-    <div class="navbar_logo">
-      <img src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire Return Home Button" onclick="location.href='/'">
-      <span onclick="location.href='/'">Tristan Lundgreen</span>
-    </div>
-    <div class="navbar_links">
-      <a href="./resume.html">Résumé</a>
-      <a href="./blog.html">Blog</a>
-    </div>
-  </nav>
-</div>
 
-<!-- Contact form -->
-<div data_element_id="contact_form_element">
-    <hr class="invisible_break">
-    <div class="contact_form">
-        <div class="contact_form_body">
-            <h2>${Reach out . . .}</h2>
-            <form
-                action="https://formspree.io/f/meqwylzz"
-                method="POST">
-                <label class="contact_email">
-                    <div class="h3_like_label">
-                    your_Email:
+    <!-- Navbar -->
+    <div data_element_id="navbar_element">
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <img src="assets/index_photos/black_scribble_transparrent.webp" alt="Inland Empire Return Home Button"
+                    onclick="location.href='/'">
+                <span onclick="location.href='/'">Tristan Lundgreen</span>
+            </div>
+            <div class="navbar_links">
+                <a href="./resume.html">Résumé</a>
+                <a href="./blog.html">Blog</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Contact form -->
+    <div data_element_id="contact_form_element">
+        <hr class="invisible_break">
+        <div class="contact_form">
+            <div class="contact_form_body">
+                <h2>${Reach out . . .}</h2>
+                <form action="https://formspree.io/f/meqwylzz" method="POST">
+                    <label class="contact_email">
+                        <div class="h3_like_label">
+                            your_Email:
+                        </div>
+                        <input type="email" name="email">
+                    </label>
+                    <div>
+                        <label class="stretchedToMargin">
+                            <div class="h3_like_label">
+                                your_Message:
+                            </div>
+                            <textarea class="stretchedToMargin" name="message"></textarea>
+                        </label>
+                        <!-- other form fields go here -->
+                        <button type="submit">&lt;/send&gt;</button>
                     </div>
-                    <input type="email" name="email">
-                </label>
-                <div>
-                <label class="stretchedToMargin">
-                    <div class="h3_like_label">
-                    your_Message:
-                    </div>
-                    <textarea class="stretchedToMargin" name="message"></textarea>
-                </label>
-                <!-- other form fields go here -->
-                <button type="submit">&lt;/send&gt;</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
-</div>
 </body>

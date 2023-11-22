@@ -34,12 +34,6 @@ hr {
     justify-content: center;
 }
 
-.entry_image {
-    max-width: 70%;
-    height: auto;
-    width: auto\9;
-}
-
 /* Blog entry section*/
 .blog_entry {
     position: relative;
@@ -48,18 +42,17 @@ hr {
     margin-bottom: 10px;
 }
 
-.image_container {
-    position: relative;
-    display: inline-block;
-}
-
 .rounded_image {
     width: 100%;
     height: auto;
 }
 
+.entry_title {
+    margin-top: 10px;
+}
+
 .entry_title span {
-    font-size: 1.5vw;
+    font-size: calc(12px + 0.8vw);
     font-family: 'IBM Plex Mono', sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -80,8 +73,9 @@ hr {
 
 .entry_date,
 .entry_description {
-    font-size: 1.2vw;
+    font-size: calc(12px + 0.8vw);
     font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
 }
 
 .entry_text_block {
@@ -109,19 +103,43 @@ hr {
     padding-left: 8px;
     padding-right: 8px;
     font-family: 'IBM Plex sans', sans-serif;
-    font-size: .8vw;
+    font-size: calc(12px + 0.3vw);
 }
 
-.blog-grow {
+.entry_polygon {
     transition: all .2s ease-in-out;
+    cursor: pointer;
+    width: 100vw;
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 826px;
+    max-height: 465px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
 }
 
-.blog-grow:hover {
+.entry_polygon:hover {
     transform: scale(1.02);
 }
 
-/* Mobile Changes */
+.entry_date span,
+.entry_description span {
+    color: white;
+}
 
+/* Background Images  */
+.internet_spaceships {
+    background-image: url("Blog/Internet_Spaceships_Are_Serious_Business/thumb.webp");
+}
+
+.rewind_22 {
+    background-image: url("Blog/Game_Rewind_22/thumb.webp");
+}
+
+/* Media Changes */
 @media (max-width: 900px) {
     .entry_image {
         max-width: 900px;
@@ -135,24 +153,46 @@ hr {
     }
 
     h2 {
-        font-size: 3.7vw;
+        font-size: calc(12px + 1.0vw);
     }
 
-    .entry_title {
-        font-size: 3.2vw;
+    .entry_title span {
+        font-size: calc(12px + 1.0vw);
     }
 
     .entry_date,
     .entry_description {
-        font-size: 3vw;
+        font-size: calc(12px + 1.0vw);
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
 
     .entry_tag {
-        font-size: 2vw;
+        font-size: calc(12px + 1.0vw);
     }
 
     .everything_but_injection {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .entry_date span,
+    .entry_description span {
+        background-color: black;
+        padding: 5px;
+        color: white;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    .entry_title span,
+    .entry_date,
+    .entry_description {
+        font-size: 22.4px;
+    }
+
+    .entry_tag {
+        font-size: 16px;
     }
 }

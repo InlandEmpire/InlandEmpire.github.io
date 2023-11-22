@@ -228,15 +228,16 @@ hr {
         font-size: calc(12px + 1.0vw);
         margin-bottom: 5px;
         line-height: 25px;
+        line-height:20px;
     }
 
     .entry_date {
         font-size: calc(12px + 1.0vw);
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
 
     .entry_tag {
-        font-size: calc(8px + 0.5vw);
+        font-size: calc(5px + 0.5vw);
     }
 
     .entry_title span {

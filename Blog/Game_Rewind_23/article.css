@@ -29,7 +29,6 @@ h2 {
 .outro {
     max-width: 800px;
     margin: 0 auto;
-    /* Center horizontally */
 }
 
 .heading_image {
@@ -69,6 +68,14 @@ em {
     color: white;
 }
 
+.hide_desktop {
+    display: none;
+}
+
+.intro_block {
+    margin-bottom: 15px;
+}
+
 .essay_block {
     background-color: #222526;
     display: flow-root;
@@ -88,23 +95,18 @@ em {
     margin-right: 15px;
 }
 
-.standing_para {
-    margin-bottom: 10px;
-}
-
-.hide_desktop {
-    display: none;
-}
-
-.intro_block {
-    margin-bottom: 15px;
-}
-
 /* Blog entry section*/
 .blog_entry {
     position: relative;
     text-align: center;
     color: white;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.blog_block {
+    margin-bottom: 15px;
 }
 
 .image_container {
@@ -115,6 +117,7 @@ em {
 .rounded_image {
     width: 100%;
     height: auto;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -126,7 +129,6 @@ em {
     line-height: 1.0;
     padding: 5px;
     max-width: 750px;
-    background-color: black;
     color: white;
 }
 
@@ -135,35 +137,34 @@ em {
     color: white;
     text-align: left;
     margin-bottom: 5px;
-    text-shadow: -1px -1px 1px black;
 }
 
 .entry_date {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .entry_title {
-    margin-bottom: 15px;
-    line-height:30px;
+    margin-bottom: 5px;
+    line-height: 30px;
 }
 
 .entry_date span {
     font-size: calc(12px + 0.8vw);
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color: black;
+    /* background-color: black; */
     padding: 5px;
     max-width: 750px;
     color: white;
 }
 
 .entry_text_block {
-    display: block;
-    position: absolute;
+    /* display: block; */
+    /* position: absolute; */
     bottom: 3%;
     left: 17%;
     width: auto;
     justify-content: left;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .entry_tags {
@@ -234,7 +235,7 @@ hr {
     }
 
     .entry_tag {
-        font-size: calc(5px + 0.5vw);
+        font-size: calc(10px + 0.5vw);
     }
 
     .entry_title span {

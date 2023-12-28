@@ -203,6 +203,7 @@ summary {
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: center;
 }
 
 details {
@@ -211,12 +212,11 @@ details {
 }
 
 details p {
-    padding: 0px 5px 0px 5px;
+    padding: 0px 5px 15px 5px;
 }
 
 .small_hr {
     max-width: 50px;
-    /* margin-left: 5px; */
     margin: 2px 0px 2px 5px;
 }
 
@@ -255,7 +255,6 @@ details p {
     }
 
     .entry_title {
-        font-size: calc(12px + 1.0vw);
         margin-bottom: 5px;
         line-height: 25px;
         line-height: 20px;
@@ -271,15 +270,37 @@ details p {
     }
 
     .entry_title span {
-        font-size: 3.2vw;
+        font-size: calc(13px + 1.0vw);
     }
 
     .entry_date span {
-        font-size: 3.2vw;
+        font-size: calc(10px + 1.0vw);
     }
 
     .heading_image {
         background-attachment: local;
+    }
+
+    .entry_tag {
+        font-size: calc(10px + 0.3vw);
+    }
+
+    .small_hr {
+        max-width: 50px;
+        margin: 5px 0px 5px 5px;
+    }
+
+    summary {
+        font-size: calc(16px + 0.3vw);
+        margin-block-end: 0;
+    }
+
+    .game_rank {
+        font-size: calc(20px + 0.5vw);
+    }
+
+    .game_notes {
+        font-size: calc(12px + 0.5vw);
     }
 }
 

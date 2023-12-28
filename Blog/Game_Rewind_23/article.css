@@ -214,6 +214,16 @@ details p {
     padding: 0px 5px 0px 5px;
 }
 
+.small_hr {
+    max-width: 50px;
+    /* margin-left: 5px; */
+    margin: 2px 0px 2px 5px;
+}
+
+.in_div_hr {
+    margin: 10px 0px 10px 0px;
+}
+
 @media (max-width: 800px) {
 
     .foreword,

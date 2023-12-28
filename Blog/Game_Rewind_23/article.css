@@ -101,7 +101,7 @@ em {
     text-align: center;
     color: white;
     background-color: black;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 5px 10px 5px;
     border-radius: 15px;
 }
 
@@ -127,7 +127,6 @@ em {
     font-style: normal;
     font-weight: 100;
     line-height: 1.0;
-    padding: 5px;
     max-width: 750px;
     color: white;
 }
@@ -151,20 +150,17 @@ em {
 .entry_date span {
     font-size: calc(12px + 0.8vw);
     font-family: 'IBM Plex Sans', sans-serif;
-    /* background-color: black; */
-    padding: 5px;
     max-width: 750px;
     color: white;
 }
 
 .entry_text_block {
-    /* display: block; */
-    /* position: absolute; */
+    padding-left: 5px;
+    padding-right: 5px;
     bottom: 3%;
     left: 17%;
     width: auto;
     justify-content: left;
-    /* margin-bottom: 15px; */
 }
 
 .entry_tags {

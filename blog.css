@@ -5,7 +5,6 @@ body {
 }
 
 h1 {
-
     padding-top: 50px;
     padding-bottom: 25px;
     font-size: 32px;
@@ -84,7 +83,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 15px;
-
 }
 
 .entry_tags {

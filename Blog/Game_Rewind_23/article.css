@@ -33,7 +33,7 @@ h2 {
 
 .heading_image {
     /* The image used */
-    background-image: url("banner.webp");
+    background-image: url("thumb.webp");
 
     /* Set a specific height */
     min-height: 80px;
@@ -222,6 +222,10 @@ details p {
 
 .in_div_hr {
     margin: 10px 0px 10px 0px;
+}
+
+.game_notes, .game_rank {
+    margin-bottom: 5px;
 }
 
 @media (max-width: 800px) {

@@ -5,7 +5,6 @@ body {
 }
 
 h1 {
-
     padding-top: 50px;
     padding-bottom: 25px;
     font-size: 32px;
@@ -58,8 +57,7 @@ hr {
     font-weight: 100;
     line-height: 1.0;
     color: white;
-    background-color: black;
-    padding: 5px;
+    padding: 5px 5px 5px 0px;
     max-width: 750px;
 }
 
@@ -79,12 +77,12 @@ hr {
 }
 
 .entry_text_block {
-    display: block;
+    background-color: rgba(0, 0, 0, 0.65);
     position: absolute;
-    bottom: 3%;
-    left: 17%;
-    width: auto;
-    justify-content: left;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
 }
 
 .entry_tags {
@@ -99,9 +97,7 @@ hr {
     border-width: 1px;
     border-radius: 20px;
     margin-right: 10px;
-    padding: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 3px 8px 3px 8px;
     font-family: 'IBM Plex sans', sans-serif;
     font-size: calc(12px + 0.3vw);
 }
@@ -119,6 +115,7 @@ hr {
     border-radius: 10px;
     position: relative;
     display: inline-block;
+    overflow: hidden;
 }
 
 .entry_polygon:hover {
@@ -135,6 +132,10 @@ hr {
     background-image: url("Blog/Internet_Spaceships_Are_Serious_Business/thumb.webp");
 }
 
+.rewind_23 {
+    background-image: url("Blog/Game_Rewind_23/thumb.webp");
+}
+
 .rewind_22 {
     background-image: url("Blog/Game_Rewind_22/thumb.webp");
 }
@@ -148,8 +149,13 @@ hr {
     }
 
     .entry_text_block {
-        bottom: 3%;
-        left: 3%;
+        padding: 5px;
+    }
+
+    .entry_date span,
+    .entry_description,
+    .entry_title span {
+        background-color: transparent;
     }
 
     h2 {
@@ -164,7 +170,6 @@ hr {
     .entry_description {
         font-size: calc(8px + 1.0vw);
         margin-bottom: 10px;
-        margin-top: 10px;
     }
 
     .entry_tag {
@@ -178,9 +183,13 @@ hr {
 
     .entry_date span,
     .entry_description span {
-        background-color: black;
-        padding: 5px;
+        padding: 5px 5px 5px 0px;
         color: white;
+    }
+
+    .small_hr {
+        max-width: 50px;
+        margin: -5px 0px -8px 2px;
     }
 }
 

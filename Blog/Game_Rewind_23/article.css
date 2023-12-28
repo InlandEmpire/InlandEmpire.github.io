@@ -29,22 +29,15 @@ h2 {
 .outro {
     max-width: 800px;
     margin: 0 auto;
-    /* Center horizontally */
 }
 
 .heading_image {
-    /* The image used */
     background-image: url("thumb.webp");
-
-    /* Set a specific height */
     min-height: 80px;
-
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* Styles */
     max-width: 800px;
     border-radius: 5px 5px 0px 0px;
 }
@@ -69,6 +62,14 @@ em {
     color: white;
 }
 
+.hide_desktop {
+    display: none;
+}
+
+.intro_block {
+    margin-bottom: 15px;
+}
+
 .essay_block {
     background-color: #222526;
     display: flow-root;
@@ -88,23 +89,18 @@ em {
     margin-right: 15px;
 }
 
-.standing_para {
-    margin-bottom: 10px;
-}
-
-.hide_desktop {
-    display: none;
-}
-
-.intro_block {
-    margin-bottom: 15px;
-}
-
 /* Blog entry section*/
 .blog_entry {
     position: relative;
     text-align: center;
     color: white;
+    background-color: black;
+    padding: 10px 5px 10px 5px;
+    border-radius: 15px;
+}
+
+.blog_block {
+    margin-bottom: 15px;
 }
 
 .image_container {
@@ -115,6 +111,7 @@ em {
 .rounded_image {
     width: 100%;
     height: auto;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -124,9 +121,7 @@ em {
     font-style: normal;
     font-weight: 100;
     line-height: 1.0;
-    padding: 5px;
     max-width: 750px;
-    background-color: black;
     color: white;
 }
 
@@ -135,35 +130,31 @@ em {
     color: white;
     text-align: left;
     margin-bottom: 5px;
-    text-shadow: -1px -1px 1px black;
 }
 
 .entry_date {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .entry_title {
-    margin-bottom: 15px;
-    line-height:30px;
+    margin-bottom: 5px;
+    line-height: 30px;
 }
 
 .entry_date span {
     font-size: calc(12px + 0.8vw);
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color: black;
-    padding: 5px;
     max-width: 750px;
     color: white;
 }
 
 .entry_text_block {
-    display: block;
-    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
     bottom: 3%;
     left: 17%;
     width: auto;
     justify-content: left;
-    margin-bottom: 15px;
 }
 
 .entry_tags {
@@ -189,6 +180,42 @@ em {
 
 hr {
     color: white;
+}
+
+summary {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+details {
+    background-color: rgb(111, 111, 111);
+    border-radius: 10px;
+}
+
+details p {
+    padding: 0px 5px 15px 5px;
+}
+
+.small_hr {
+    max-width: 50px;
+    margin: 2px 0px 2px 5px;
+}
+
+.in_div_hr {
+    margin: 10px 0px 10px 0px;
+}
+
+.game_notes, .game_rank {
+    margin-bottom: 5px;
 }
 
 @media (max-width: 800px) {
@@ -222,10 +249,9 @@ hr {
     }
 
     .entry_title {
-        font-size: calc(12px + 1.0vw);
         margin-bottom: 5px;
         line-height: 25px;
-        line-height:20px;
+        line-height: 20px;
     }
 
     .entry_date {
@@ -234,19 +260,41 @@ hr {
     }
 
     .entry_tag {
-        font-size: calc(5px + 0.5vw);
+        font-size: calc(10px + 0.5vw);
     }
 
     .entry_title span {
-        font-size: 3.2vw;
+        font-size: calc(13px + 1.0vw);
     }
 
     .entry_date span {
-        font-size: 3.2vw;
+        font-size: calc(10px + 1.0vw);
     }
 
     .heading_image {
         background-attachment: local;
+    }
+
+    .entry_tag {
+        font-size: calc(10px + 0.3vw);
+    }
+
+    .small_hr {
+        max-width: 50px;
+        margin: 5px 0px 5px 5px;
+    }
+
+    summary {
+        font-size: calc(16px + 0.3vw);
+        margin-block-end: 0;
+    }
+
+    .game_rank {
+        font-size: calc(20px + 0.5vw);
+    }
+
+    .game_notes {
+        font-size: calc(12px + 0.5vw);
     }
 }
 

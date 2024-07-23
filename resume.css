@@ -80,6 +80,20 @@ hr.column_divider {
     height: auto;
 }
 
+.extended_recs {
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.17em;
+    border-style: solid;
+    border-color: #212121;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
 @media (max-width: 900px) {
     .everything_but_injection {
         display: flex;

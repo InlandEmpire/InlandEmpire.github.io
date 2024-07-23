@@ -68,7 +68,7 @@ h3 {
 .tagline {
     width: 450px;
 }
-
+      
 @media (max-width: 900px) {
     .primary_visuals {
         display: block;

@@ -59,6 +59,25 @@ hr.column_divider {
     margin-bottom: 3px;
 }
 
+.view_as_pdf {
+    margin-top: 0px;
+    margin-bottom: -20px;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.0em;
+    align-items: center;
+    float: right;
+}
+
+.view_as_pdf_text {
+    border-style: solid;
+    border-color: #212121;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+
 .ref_person {
     display: flex;
     align-items: center;
@@ -75,14 +94,21 @@ hr.column_divider {
     padding-top: 11px;
 }
 
-.title_link .socials_tree_button img {
+.socials_tree_image {
     width: 110%;
+    height: auto;
+}
+
+.paper_clip {
+    max-width: 20px;
+    margin-left: 3px;
+    margin-bottom: -3px;
+    align-items: center;
     height: auto;
 }
 
 .extended_recs {
     margin-top: 15px;
-    /* margin-bottom: 15px; */
     font-family: 'IBM Plex Mono', sans-serif;
     font-style: normal;
     font-weight: 300;

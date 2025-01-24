@@ -10,82 +10,77 @@
     <link rel="stylesheet" href="../../common_elements/element_styles.css" type="text/css">
     <link rel="stylesheet" href="article.css" type="text/css">
     <link rel="icon" type="image/x-icon" href="../../favicon.jpg">
-    <title>Tristan Lundgreen | 2024 - A Shorter Gaming Rewind</title>
+    <title>V41H4114 - Components of a Homelab</title>
 </head>
 
 <body>
     <div data_container_id="navbar_target" data_element_id="blog_navbar_element" blog_nest="True"></div>
     <script src="../../common_elements/element_importer.js"></script>
     <div class="heading_image"></div>
-    <h1>2024 - A Shorter Gaming Rewind</h1>
+    <h1>V41H4114 - Components of a Homelab</h1>
     <div class="essay_block">
         <div class="essay_text">
-            <div>
+            <div class="intro_section">
                 <div class="intro_block">
-                    <details>
-                        <summary>Rating System</summary>
-
-                        <p>
-                            I rate games based on a slightly-adapted version of <a
-                                href="https://www.accursedfarms.com/posts/other-videos/gamelistvideo/?v=1">Ross
-                                Scott's</a>
-                            rating system, which he employs on his similar list of completed and uncompleted games. The
-                            system is as&nbsp;follows:
-                            <br></br>
-                            <b>Fantastic:</b> My life is better because I played these games. It doesn't mean the game
-                            has no
-                            problems, but the highs are so high I don't care about the lows.
-                            <br></br>
-                            <b>Good/Great:</b> Any game with this rating has my full seal of approval. I had no regrets
-                            playing this. Something about it kept it from being one of one of the best gaming
-                            experiences I've ever had, but that's not a mark against it.
-                            <br></br>
-                            <b>Hazy:</b> If you ask me what I thought of a game and I have to stop and think about it,
-                            then it
-                            gets this rating. It's got something going for it, but I beat the game and still don't know
-                            how I feel about it.
-                            <br></br>
-                            <b>Love & Hate:</b> These are games that would great if not for very serious issues. These
-                            games
-                            have extremely strong points underscored by very bad shortcomings.
-                            <br></br>
-                            <b>Doubt:</b> Games like this would probably be “Hazy,” but the longer I play them, the more
-                            I want
-                            them to be over. These are games that make me feel I was tricked into playing something
-                            hollow. These games may still be competent, but not enjoyable.
-                            <br></br>
-                            <b>Pass:</b> These are not necessarily bad games. In fact, many of these can be great games.
-                            What
-                            it means is it's the wrong game. These are games that just aren't for me, but were still
-                            finished.
-                            <br></br>
-                            <b>Bad:</b> These are games I played-through completely but I can in no way recommend. These
-                            games
-                            I probably didn't want to finish but still did out of some sense of resentment or pride.
-                            <br></br>
-                            <b>Retired:</b> These are games that have been retired from the queue due to a misalignment
-                            of
-                            taste or a shortfall of quality.
-                            <br></br>
-                            <b>N/A:</b> Entries with no rating are replays.
-                        </p>
-                    </details>
+                    <h2>Foreword</h2>
+                    <p>Since starting just over a year ago, homelabbing has become my number one technical hobby. While
+                        my expectations were low, having only conceptualized my server first as a network-attached
+                        storage device, I quickly learned how much a dedicated home server is capable of. As my
+                        ambitions grew, so did my technical knowledge, which skyrocketed to include robust
+                        understandings of network infrastructure, computer hardware, and distributed systems.
+                        Unfortunately, since I knew so little starting out, I made a number of mistakes in choosing
+                        hardware. Had I been exposed to more information beforehand, I would have made very different
+                        component choices in my build.To hopefully help someone down the road, I've compiled this list
+                        of each of my components where I explain the logic supporting their inclusion. </p>
+                    <hr class="rounded_divider">
+                    <h2>Use cases</h2>
+                    <p>My homelab serves a number of simultaneous roles. The current build is optimized for the
+                        following:<br>
+                        • High capacity network-attached storage<br>
+                        • Parallel virtualization<br>
+                        • 24/7 Seeding<br>
+                        • DNS Sink Ad Blocking<br>
+                        • Internal Wiki hosting<br>
+                        • Media Streaming (Jellyfin to Infuse)<br>
+                        • Bare-metal performance VM gaming</p>
                 </div>
+            </div>
+
+            <div>
+
                 <hr class="rounded_divider">
-                <h2>Rewind</h2>
+                <h2>Components</h2>
             </div>
             <div class="blog_block">
                 <div class="blog_entry">
                     <div class="entry_text_block">
-                        <h3 class="entry_text entry_date"><span>Jan 14, 2024</span></h3>
+                        <h3 class="entry_text entry_date"><span>Case</span></h3>
                         <hr class="small_hr">
-                        <h3 class="entry_text entry_title"><span>Portal: Revolution (2024)</span></h3>
-                        <img class="entry_image rounded_image" src="portal.webp" alt="Portal Revolution">
-                        <div class="entry_tags">
-                            <h4 class="entry_tag entry_tag_1">Platform: PC</h4>
-                            <h4 class="entry_tag entry_tag_2">Time: 5:18</h4>
-                            <h4 class="entry_tag entry_tag_3">Rating: Good/Great</h4>
+                        <h3 class="entry_text entry_title"><span>Fractal Design Node 804</span></h3>
+                        <div class="half_text">
+                            <p class="entry_explainer">When I first built my rig, I didn't have space to hide a server rack in my home. Because
+                                of that, aesthetics and presentability were important. I wanted something small and
+                                inconspicuous that could reside anywhere from a living room to a home office.
+                                Fortunately, Swedish case manufacturer Fractal Design created the Node 804— a Micro ATX
+                                NAS/homelab case. It's bifurcated design supports a whopping eight 3.5” drives, an
+                                additional four 2.5” drives and one 5.25” optical drive, all in an elegant cube form
+                                factor. The Node line is a favorite among homelabbers, and it was the perfect choice for
+                                me. As I love the cyberpunk style, I've added dozens of tech-themed stickers to the
+                                front and side panels from Defcon and other events.</p>
+                            <div class="image_and_link">
+                            <img class="entry_image rounded_image" src="node.webp" alt="Fractal Design Node 804">
+                            <p class="hyperlink">Get on Amazon</p>
                         </div>
+                        </div>
+                        <hr class="small_hr">
+                        <h3 class="entry_text entry_title"><span>Advantages</span></h3>
+                        <div class="advantage_text">
+                        <p>• Elegant form factor that can fit anywhere<br>
+                            • Support for 8-12 drives<br>
+                            • Side window<br>
+                            • Built in fan controller<br>
+                        </p>
+                    </div>
                     </div>
                 </div>
             </div>

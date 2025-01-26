@@ -153,6 +153,11 @@ em {
     width: 100%;
     text-align: center;
 }
+
+.hyperlink {
+    color: black;
+}
+
 .entry_text_block {
     padding-left: 5px;
     padding-right: 5px;
@@ -164,6 +169,7 @@ em {
 .advantage_text p{
     color: black;
     text-align: left;
+    margin-bottom: 15px;
 }
 .entry_explainer {
     margin-bottom: 15px;
@@ -180,7 +186,7 @@ em {
     grid-template-columns: 50% 50%;
 }
 
-.half_text p {
+.half_text .entry_explainer {
     color: black;
     text-align: left;
     margin-right: 15px;

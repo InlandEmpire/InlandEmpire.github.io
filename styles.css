@@ -25,7 +25,8 @@ h2 {
 
 h3,
 p,
-label {
+label,
+a {
     font-family: 'IBM Plex Mono', sans-serif;
     font-style: normal;
     font-weight: 300;

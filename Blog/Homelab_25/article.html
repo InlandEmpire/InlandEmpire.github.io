@@ -64,7 +64,7 @@
                                 of that, aesthetics and presentability were important. I wanted something small and
                                 inconspicuous that could reside anywhere from a living room to a home office.
                                 Fortunately, Swedish case manufacturer Fractal Design created the Node 804— a Micro ATX
-                                NAS/homelab case. It's bifurcated design supports a whopping eight 3.5” drives, an
+                                NAS/homelab case. Its bifurcated design supports a whopping eight 3.5” drives, an
                                 additional four 2.5” drives and one 5.25” optical drive, all in an elegant cube form
                                 factor. The Node line is a favorite among homelabbers, and it was the perfect choice for
                                 me. As I love the cyberpunk style, I've added dozens of tech-themed stickers to the
@@ -192,7 +192,7 @@
                     <div class="half_text">
                         <p class="entry_explainer">As I planned to increase the number of VMs running in parallel on my
                             server, expanded RAM became a must. According to my expected needs, 64GB was plenty. I had
-                            already known Ryzen 5000 series chips preformed better when using dual-channel RAM, so I
+                            already known Ryzen 5000 series chips performed better when using dual-channel RAM, so I
                             chose to opt for four RAM modules— the maximum my motherboard supports. I was troubled to
                             discover, however, that AM4 chips struggle with RAM stability at 3600MT/s across two
                             channels. Because of that, I down-clock my RAM to 3200MT/s. There was no real price
@@ -215,28 +215,230 @@
                 </div>
             </div>
 
+            <div class="blog_block"></div>
+            <div class="blog_entry">
+                <div class="entry_text_block">
+                    <h3 class="entry_text entry_date"><span>Graphics Processing Unit</span></h3>
+                    <hr class="small_hr">
+                    <h3 class="entry_text entry_title"><span>EVGA GeForce RTX 3080</span></h3>
+                    <div class="half_text">
+                        <div class="exp_and_advantages">
+                            <p class="entry_explainer">This RTX 3080 comes from a previous 4K 120hz build. These days, I
+                                most often game on my Apple Studio Display, which is capable of 5K 60hz. The RTX 3080 is
+                                more than capable of meeting that target. Passed through to a Windows 11 gaming VM, I
+                                game on my server with bare-metal performance without impacting the rest of my server
+                                functions at all.
+                            </p>
+                            <hr class="small_hr">
+                            <h3 class="entry_text entry_title"><span>Advantages</span></h3>
+                            <div class="advantage_text">
+                                <p>• Great at 5k 60hz gaming<br>
+                                    • Easy to pass through using Unraid<br>
+                                    • Stays cool with three quiet fans<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image_and_link">
+                            <img class="entry_image rounded_image" src="3080.jpg" alt="EVGA GeForce RTX 3080">
+                            <a href="https://a.co/d/6eYRabI" class="hyperlink">Get on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="blog_block"></div>
+            <div class="blog_entry">
+                <div class="entry_text_block">
+                    <h3 class="entry_text entry_date"><span>Power Supply Unit</span></h3>
+                    <hr class="small_hr">
+                    <h3 class="entry_text entry_title"><span>Antec Signature ST1000</span></h3>
+                    <div class="half_text">
+                        <p class="entry_explainer">After deciding to add my RTX 3080 to my server, the need arose to
+                            upgrade my PSU. Like most servers, I maintain 24/7 uptime— a situation where power
+                            efficiency is paramount. With that in mind, I decided to go with the highest PSU efficiency
+                            rating: titanium. Most titanium PSUs are high-wattage, and since I intend to continue adding
+                            drives until I physically cant anymore, I'll take as many watts as I can get. Antec uses the
+                            exact same hardware as Seasonic, but sells it for a fraction of the price. The ST1000 in
+                            particular is fully modular with plenty of cables for molex and SATA that allows me to
+                            continue scaling past my case.</p>
+                        <div class="image_and_link">
+                            <img class="entry_image rounded_image" src="antec.jpg" alt="Antec Signature ST1000">
+                            <a href="https://a.co/d/gDFbwMP" class="hyperlink">Get on Amazon</a>
+                        </div>
+                    </div>
+                    <hr class="small_hr">
+                    <h3 class="entry_text entry_title"><span>Advantages</span></h3>
+                    <div class="advantage_text">
+                        <p>• High wattage allows for massive drive scalability<br>
+                            • Titanium efficiency is maximally cost effective on high-uptime equipment<br>
+                            • Modular PSU with large amount of connectors supports plenty of drives<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="blog_block"></div>
+            <div class="blog_entry">
+                <div class="entry_text_block">
+                    <h3 class="entry_text entry_date"><span>Host Bus adapter</span></h3>
+                    <hr class="small_hr">
+                    <h3 class="entry_text entry_title"><span>LSA 9200-8e SAS</span></h3>
+                    <div class="half_text">
+                        <div class="exp_and_advantages">
+                            <p class="entry_explainer">I ran out of space for drives in the Node 804 surprisingly fast.
+                                By routing cables from the server's PSU out the back of the case and using a few
+                                adapters, I power an additional 8 drives. To initialize the data connections, though,
+                                I'd need an HBA (host bus adapter)— one that's externally facing. The LSA 9200-8e cards
+                                are available for cheap second hand, and I snagged one from beloved homelab parts vendor
+                                TheArtofServer off eBay. For mounting and cooling the drives, I just use acrylic
+                                caddies.
+                            </p>
+                            <hr class="small_hr">
+                            <h3 class="entry_text entry_title"><span>Advantages</span></h3>
+                            <div class="advantage_text">
+                                <p>• Support for 8 external drives<br>
+                                    • Cheap secondhand<br>
+                                    • Low profile<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image_and_link">
+                            <img class="entry_image rounded_image" src="sas.jpg" alt="LSA 9200-8e SAS">
+                            <a href="https://a.co/d/8IfWH7q" class="hyperlink">Get on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="blog_block"></div>
+            <div class="blog_entry">
+                <div class="entry_text_block">
+                    <h3 class="entry_text entry_date"><span>Fans</span></h3>
+                    <hr class="small_hr">
+                    <h3 class="entry_text entry_title"><span>Be Quiet! Pure Wings 3</span></h3>
+                    <div class="half_text">
+                        <div class="exp_and_advantages">
+                            <p class="entry_explainer">The Node 804's one drawback is that it suffers from significant
+                                airflow problems. Under load, the case's stock fans aren't nearly enough to keep most
+                                drives within the healthy temperature range. I added five 120mm Be Quiet fans which cool
+                                both my GPU and the internal 3.5” drive array. Be Quiet fans are also extremely quiet,
+                                which I value in a computer.
+                            </p>
+                            <hr class="small_hr">
+                            <h3 class="entry_text entry_title"><span>Advantages</span></h3>
+                            <div class="advantage_text">
+                                <p>• Low volume at high RPM<br>
+                                    • Great constant pressure<br>
+                                    • 3-pin connectors<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image_and_link">
+                            <img class="entry_image rounded_image" src="fans.jpg" alt="Be Quiet! Pure Wings 3">
+                            <a href="https://a.co/d/iUbE0ZF" class="hyperlink">Get on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="blog_block"></div>
+            <div class="blog_entry">
+                <div class="entry_text_block">
+                    <h3 class="entry_text entry_date"><span>Operating System</span></h3>
+                    <hr class="small_hr">
+                    <h3 class="entry_text entry_title"><span>Unraid</span></h3>
+                    <div class="half_text">
+                        <div class="exp_and_advantages">
+                            <p class="entry_explainer">There are plenty of options for a homelab's operating system,
+                                but Unraid is my favorite. While paid, Unraid offers time savings far in excess of
+                                its cost. Being able to add and remove disks of varied size, protect them with
+                                parity, rapidly spin up VMs, and one-click install for thousands of Docker
+                                containers easily makes it worth it. Going with Unraid was the best decision I made
+                                in building my server.
+                            </p>
+                            <hr class="small_hr">
+                            <h3 class="entry_text entry_title"><span>Advantages</span></h3>
+                            <div class="advantage_text">
+                                <p>• Phenomenal help resources<br>
+                                    • Frequent updates<br>
+                                    • Fantastic docker support<br>
+                                    • Massively simplifies processes<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image_and_link">
+                            <img class="entry_image rounded_image" src="unraid.png" alt="Unraid Logo">
+                            <a href="https://unraid.net" class="hyperlink">Get on Unraid</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="blog_block"></div>
+            <div class="blog_entry">
+                <div class="entry_text_block">
+                    <h3 class="entry_text entry_date"><span>Drives</span></h3>
+                    <hr class="small_hr">
+                    <h3 class="entry_text entry_title"><span>Various</span></h3>
+                    <div class="half_text">
+                        <div class="exp_and_advantages">
+                            <p class="entry_explainer">Like most homelabs, my system uses a variety of drives salvaged
+                                from old machines, bought new, or bought used. I currently buy 18TB manufacturer
+                                recertified Seagate Exos drives from ServerPartsDeals. With limited physical space for
+                                drives, I need to maximize what I can buy. 18TB disks are best for my budget. Two of
+                                them are parity drives that protect my array from up to two simultaneous drive failures.
+                                I also use a 4TB NVMe as Unraid's cache and a 1TB NVMe that hosts VM vdisks.
+                            </p>
+                            <hr class="small_hr">
+                            <h3 class="entry_text entry_title"><span>Advantages</span></h3>
+                            <div class="advantage_text">
+                                <p>• 18TB is an economical TB/$ ratio<br>
+                                    • Manufacturer Recertified are cheap and reliable<br>
+                                    • Large caches are great for seeding<br>
+                                    • Two parities provides additional protection<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image_and_link">
+                            <img class="entry_image rounded_image" src="hdd.webp" alt="18TB Seagate Exos">
+                            <a href="https://serverpartdeals.com/products/seagate-exos-x18-st18000nm004j-18tb-7-2k-rpm-sas-12gb-s-3-5-recertified-hard-drive?_pos=2&_sid=5c631aaa7&_ss=r"
+                                class="hyperlink">Get on ServerPartsDeals</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-
+            <div class="intro_section"></div>
+            <div class="intro_block">
+                <hr class="rounded_divider">
+                <h2>Biggest lessons</h2>
+                <p><b>You need more than you think.</b><br>
+                    I replaced nearly every part of my server in the first year I had it. I wish I knew ahead of time
+                    that a homelab is capable of being far more than a NAS. Even if you don't think you'll utilize the
+                    power you're buying, sooner or later you will use it.
+                    <br><br>
+                    <b>Buy secondhand.</b><br>
+                    I bought almost every server part from secondhand stores like eBay and ServerPartsDeals. In doing
+                    so,
+                    I've saved almost 60% vs. MSRP had I bought each component new.
+                    <br><br>
+                    <b>Homelabs can be everything you want at the same time.</b><br>
+                    My homelab is the most capable system in my house. It games AND hosts game servers at the same time.
+                    It's a DNS sink, seed box, site host, and NAS— usually all at once! If you build a homelab
+                    correctly, it'll be the only computer you ever need. So go big!
+                </p>
+            </div>
         </div>
+
+    </div>
 
     </div>
     </div>
 </body>
 
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
+<!-- Well, maybe it's my fault 'cause I'm so nostalgic -->
+<!-- The sum of my habbits had you sharing my accent -->
+<!-- And you're just like me, I feel like I trained you -->
+<!-- I've been trying to change but I don't know how to change you -->
 
 </html>

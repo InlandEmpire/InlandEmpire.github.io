@@ -21,3 +21,6 @@ For the observant, yes.
 
 ### The dates of the last posts on your linked social media are a long time ago. Are the links out of date?
 No, I'm just very rarely on social media. I post even less. Maybe if you follow me I'll post more :^)
+
+### Where's the design style of this come from?
+It's a synthesis of a few things-- the contemporary trends of web design here in the mid 20's, the style of graphic design employed by Apple in the 90s through the return of Steve Jobs, and webcore trends embodied by projects like Porter Robinson's Nurture.

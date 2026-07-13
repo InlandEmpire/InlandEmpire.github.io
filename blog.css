@@ -18,6 +18,11 @@ h2 {
     padding-bottom: 50px;
 }
 
+h2 span {
+    border-bottom: solid;
+    border-color: #d5ff9f;
+}
+
 .everything_but_injection {
     padding-left: 50px;
     padding-right: 50px;
@@ -152,6 +157,12 @@ hr {
     background-image: url("Blog/Game_Rewind_22/thumb.webp");
 }
 
+.highlight:hover {
+    /* border: solid; */
+    /* border-width: 5px; */
+    /* border-color: #d5ff9f; */
+    box-shadow:inset 0px 0px 0px 10px #d5ff9f;
+}
 
 /* Media Changes */
 @media (max-width: 900px) {

@@ -1,3 +1,7 @@
+body {
+    background-color: #FAF8F6;
+}
+
 .primary_visuals {
     display: flex;
     flex-direction: row;
@@ -15,6 +19,13 @@ h1 {
 .primary_visuals_headshot {
     display: flex;
     align-items: center;
+}
+
+.primary_visuals_headshot img{
+    /* outline: solid; */
+    border-left: solid;
+    border-width: 10px;
+    border-color: #d5ff9f;
 }
 
 .inland_empire {
@@ -50,15 +61,21 @@ h3 {
 
 .socials_tree {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     list-style-type: none;
     justify-content: center;
+    align-items: center;
     padding-inline-start: 0px;
 }
 
 .socials_tree_button {
-    padding: 20px;
-    width: 200%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 8px;
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .socials_tree_image {
@@ -67,6 +84,10 @@ h3 {
 
 .tagline {
     width: 450px;
+}
+
+.navbar_home_button {
+    background-color: #d5ff9f;
 }
       
 @media (max-width: 900px) {

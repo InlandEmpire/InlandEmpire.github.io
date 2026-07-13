@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #FAF8F6;
     color: #212121;
     padding-bottom: 50px;
 }
@@ -31,6 +31,10 @@ hr {
     border-width: 1px;
     display: flex;
     justify-content: center;
+}
+
+.navbar_blog_button {
+    background-color: #d5ff9f;
 }
 
 /* Blog entry section*/
@@ -147,6 +151,7 @@ hr {
 .rewind_22 {
     background-image: url("Blog/Game_Rewind_22/thumb.webp");
 }
+
 
 /* Media Changes */
 @media (max-width: 900px) {

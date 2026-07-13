@@ -104,3 +104,46 @@
     font-weight: 100;
     src: local('IBM Plex Sans'), url(IBM_Plex_Sans/IBMPlexSans-Thin.woff) format('woff');
 }
+
+/* Apple Garamond */
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Apple Garamond'), url(apple_garamond/AppleGaramond.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Apple Garamond'), url(apple_garamond/AppleGaramond-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Apple Garamond'), url(apple_garamond/AppleGaramond-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Apple Garamond'), url(apple_garamond/AppleGaramond-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Apple Garamond'), url(apple_garamond/AppleGaramond-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Apple Garamond'), url(apple_garamond/AppleGaramond-LightItalic.ttf) format('truetype');
+}

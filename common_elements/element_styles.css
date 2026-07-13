@@ -7,7 +7,7 @@
   justify-content: space-between;
   padding: 0 20px;
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: white;
+  background-color: #FAF8F6;
   border-radius: 10px;
   color: #212121;
 }
@@ -52,8 +52,15 @@
 .contact_form {
   clear: both;
   height: 100%;
-  background-color: #212121;
-  border-radius: 10px 10px 0 0;
+  background-color: #313131;
+  border-radius: 20px 10px 0 0;
+}
+
+.contact_form h2 {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .contact_form h2,
@@ -80,7 +87,7 @@
 input {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: none;
   font-size: 18px;
 }
@@ -89,6 +96,8 @@ input {
   float: right;
   margin-top: 15px;
   margin-bottom: 25px;
+  padding: 5px;
+
 }
 
 .contact_form .h3_like_label {
@@ -112,6 +121,6 @@ input {
   }
 
   .contact_form button {
-    color: black;
+    color: #313131;
   }
 }

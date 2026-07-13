@@ -1,3 +1,7 @@
+body {
+    background-color: #FAF8F6;
+}
+
 h1 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -118,6 +122,10 @@ hr.column_divider {
     border-radius: 15px;
     padding: 10px;
     padding-left: 15px;
+}
+
+.navbar_resume_button {
+    background-color: #d5ff9f;
 }
 
 @media (max-width: 900px) {

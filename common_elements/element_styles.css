@@ -9,7 +9,7 @@
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: #FAF8F6;
   border-radius: 10px;
-  color: #212121;
+  color: #313131;
 }
 
 .navbar_logo {
@@ -33,13 +33,13 @@
 .navbar_links {
   display: flex;
   align-items: center;
-  color: #212121;
+  color: #313131;
 }
 
 .navbar_links a {
   margin-right: 15px;
   text-decoration: none;
-  color: #212121;
+  color: #313131;
 }
 
 @media (max-width: 900px) {
@@ -80,7 +80,7 @@
 .contact_form .contact_form_body {
   margin-left: 100px;
   margin-right: 100px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .contact_form textarea,

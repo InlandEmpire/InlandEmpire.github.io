@@ -22,8 +22,8 @@ h1 {
 }
 
 .primary_visuals_headshot img{
-    /* outline: solid; */
-    border-left: solid;
+    border-left: dashed;
+    border-bottom: solid;
     border-width: 10px;
     border-color: #d5ff9f;
 }

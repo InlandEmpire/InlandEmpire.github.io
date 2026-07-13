@@ -6,6 +6,8 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 40px;
+    border-bottom:solid;
+    border-color: #d5ff9f;
 }
 
 h2 {
@@ -17,7 +19,7 @@ h2 {
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
-    background-color: #212121;
+    background-color: #313131;
     color: white;
     margin: 5px;
 }
@@ -76,7 +78,7 @@ hr.column_divider {
 
 .view_as_pdf_text {
     border-style: solid;
-    border-color: #212121;
+    border-color: #313131;
     border-radius: 15px;
     text-decoration: none;
     padding: 10px;
@@ -86,20 +88,20 @@ hr.column_divider {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    justify-content: left;
 }
 
 .ref_person .socials_tree_button {
-    padding-top: 5px;
-    padding-left: 10px;
-}
-
-.title_link .socials_tree_button {
-    padding-left: 15px;
-    padding-top: 11px;
+    padding: 5px;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .socials_tree_image {
-    width: 110%;
+    width: 100%;
     height: auto;
 }
 
@@ -118,7 +120,7 @@ hr.column_divider {
     font-weight: 300;
     font-size: 1.17em;
     border-style: solid;
-    border-color: #212121;
+    border-color: #313131;
     border-radius: 15px;
     padding: 10px;
     padding-left: 15px;

@@ -7,7 +7,7 @@
   justify-content: space-between;
   padding: 0 20px;
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #FAF8F6;
+  background-color: #FFFCF9;
   border-radius: 10px;
   color: #313131;
 }
@@ -65,7 +65,7 @@
 
 .contact_form h2,
 .contact_form label {
-  color: white;
+  color: #FFFCF9;
   padding-top: 25px;
   display: flex;
   flex-direction: column;
@@ -101,8 +101,12 @@ input {
 }
 
 .contact_form .h3_like_label {
-  color: white;
+  color: #FFFCF9;
   margin-bottom: 8px;
+}
+
+input, textarea {
+  background-color: #FFFCF9;
 }
 
 @media (max-width: 900px) {

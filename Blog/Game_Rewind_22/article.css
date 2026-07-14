@@ -9,14 +9,14 @@ body {
 h1 {
     align-items: center;
     text-align: center;
-    color: white;
+    color: #FFFCF9;
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 3.2vw;
 }
 
 h2 {
-    color: white;
+    color: #FFFCF9;
     margin-bottom: 10px;
 }
 
@@ -66,7 +66,7 @@ p,
 b,
 a,
 em {
-    color: white;
+    color: #FFFCF9;
 }
 
 .essay_block {
@@ -104,7 +104,7 @@ em {
 .blog_entry {
     position: relative;
     text-align: center;
-    color: white;
+    color: #FFFCF9;
 }
 
 .image_container {
@@ -127,12 +127,12 @@ em {
     padding: 5px;
     max-width: 750px;
     background-color: black;
-    color: white;
+    color: #FFFCF9;
 }
 
 .entry_text,
 .entry_tag {
-    color: white;
+    color: #FFFCF9;
     text-align: left;
     margin-bottom: 5px;
     text-shadow: -1px -1px 1px black;
@@ -153,7 +153,7 @@ em {
     background-color: black;
     padding: 5px;
     max-width: 750px;
-    color: white;
+    color: #FFFCF9;
 }
 
 .entry_text_block {
@@ -174,7 +174,7 @@ em {
 }
 
 .entry_tag {
-    border: white;
+    border: #FFFCF9;
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
@@ -188,7 +188,7 @@ em {
 }
 
 hr {
-    color: white;
+    color: #FFFCF9;
 }
 
 @media (max-width: 800px) {
@@ -211,7 +211,7 @@ hr {
     h1 {
         align-items: center;
         text-align: center;
-        color: white;
+        color: #FFFCF9;
         margin-top: 10px;
         margin-bottom: 15px;
         font-size: calc(28px + 1.0vw);

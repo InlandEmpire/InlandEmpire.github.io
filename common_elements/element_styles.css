@@ -109,6 +109,16 @@ input, textarea {
   background-color: #FFFCF9;
 }
 
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 @media (max-width: 900px) {
   .contact_form .contact_email {
     margin-right: 0px;

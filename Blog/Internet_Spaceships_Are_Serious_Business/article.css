@@ -10,14 +10,14 @@ body {
 h1 {
     align-items: center;
     text-align: center;
-    color: white;
+    color: #FFFCF9;
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 3.2vw;
 }
 
 h2 {
-    color: white;
+    color: #FFFCF9;
     margin-bottom: 10px;
 }
 
@@ -63,7 +63,7 @@ p,
 b,
 a,
 em {
-    color: white;
+    color: #FFFCF9;
 }
 
 .in_text_link {
@@ -116,8 +116,8 @@ em {
 
 h4 {
     margin-top: 5px;
-    color: white;
-    border: white;
+    color: #FFFCF9;
+    border: #FFFCF9;
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
@@ -148,14 +148,14 @@ h4 {
 }
 
 .citation i {
-    color: white;
+    color: #FFFCF9;
 }
 
 .in_text_hr {
     max-width: 500px;
     margin-top: 25px;
     margin-bottom: 25px;
-    color: white;
+    color: #FFFCF9;
 }
 
 .centered_image_blurb,
@@ -192,7 +192,7 @@ h4 {
     max-height: 200px;
     border-radius: 5px;
     border-style: solid;
-    border-color: white;
+    border-color: #FFFCF9;
 }
 
 .about_blurb {
@@ -270,7 +270,7 @@ h4 {
     h1 {
         align-items: center;
         text-align: center;
-        color: white;
+        color: #FFFCF9;
         margin-top: 10px;
         margin-bottom: 15px;
         font-size: 5.3vw;

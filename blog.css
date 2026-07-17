@@ -1,7 +1,6 @@
 body {
-    background-color: white;
-    color: #212121;
-    padding-bottom: 50px;
+    background-color: #FFFCF9;
+    color: #313131;
 }
 
 h1 {
@@ -16,6 +15,11 @@ h2 {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+}
+
+h2 span {
+    border-bottom: solid;
+    border-color: #d5ff9f;
 }
 
 .everything_but_injection {
@@ -33,11 +37,15 @@ hr {
     justify-content: center;
 }
 
+.navbar_blog_button {
+    background-color: #d5ff9f;
+}
+
 /* Blog entry section*/
 .blog_entry {
     position: relative;
     text-align: center;
-    color: white;
+    color: #FFFCF9;
     margin-bottom: 10px;
 }
 
@@ -56,14 +64,14 @@ hr {
     font-style: normal;
     font-weight: 100;
     line-height: 1.0;
-    color: white;
+    color: #FFFCF9;
     padding: 5px 5px 5px 0px;
     max-width: 750px;
 }
 
 .entry_text,
 .entry_tag {
-    color: white;
+    color: #FFFCF9;
     text-align: left;
     margin-bottom: 5px;
     text-shadow: -1px -1px 1px black;
@@ -73,7 +81,7 @@ hr {
 .entry_description {
     font-size: calc(12px + 0.8vw);
     font-family: 'IBM Plex Sans', sans-serif;
-    color: white;
+    color: #FFFCF9;
 }
 
 .entry_text_block {
@@ -92,7 +100,7 @@ hr {
 }
 
 .entry_tag {
-    border: white;
+    border: #FFFCF9;
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
@@ -124,7 +132,7 @@ hr {
 
 .entry_date span,
 .entry_description span {
-    color: white;
+    color: #FFFCF9;
 }
 
 /* Background Images  */
@@ -146,6 +154,13 @@ hr {
 
 .rewind_22 {
     background-image: url("Blog/Game_Rewind_22/thumb.webp");
+}
+
+.highlight:hover {
+    /* border: solid; */
+    /* border-width: 5px; */
+    /* border-color: #d5ff9f; */
+    box-shadow:inset 0px 0px 0px 10px #d5ff9f;
 }
 
 /* Media Changes */
@@ -192,7 +207,7 @@ hr {
     .entry_date span,
     .entry_description span {
         padding: 5px 5px 5px 0px;
-        color: white;
+        color: #FFFCF9;
     }
 
     .small_hr {

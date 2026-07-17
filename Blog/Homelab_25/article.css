@@ -9,14 +9,14 @@ body {
 h1 {
     align-items: center;
     text-align: center;
-    color: white;
+    color: #FFFCF9;
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 3.2vw;
 }
 
 h2 {
-    color: white;
+    color: #FFFCF9;
     margin-bottom: 10px;
 }
 
@@ -59,7 +59,7 @@ p,
 b,
 a,
 em {
-    color: white;
+    color: #FFFCF9;
 }
 
 .hide_desktop {
@@ -93,8 +93,8 @@ em {
 .blog_entry {
     position: relative;
     text-align: center;
-    color: white;
-    background-color: white;
+    color: #FFFCF9;
+    background-color: #FFFCF9;
     padding: 10px 5px 10px 5px;
     border-radius: 15px;
 }
@@ -122,12 +122,12 @@ em {
     font-weight: 100;
     line-height: 1.0;
     max-width: 750px;
-    color: white;
+    color: #FFFCF9;
 }
 
 .entry_text,
 .entry_tag {
-    color: white;
+    color: #FFFCF9;
     text-align: left;
     margin-bottom: 5px;
 }
@@ -145,7 +145,7 @@ em {
     font-size: calc(12px + 0.8vw);
     font-family: 'IBM Plex Sans', sans-serif;
     max-width: 750px;
-    color: white;
+    color: #FFFCF9;
 }
 
 .image_and_link{
@@ -188,7 +188,7 @@ em {
 }
 
 hr {
-    color: white;
+    color: #FFFCF9;
 }
 
 details {
@@ -226,7 +226,7 @@ details p {
     h1 {
         align-items: center;
         text-align: center;
-        color: white;
+        color: #FFFCF9;
         margin-top: 10px;
         margin-bottom: 15px;
         font-size: calc(28px + 1.0vw);

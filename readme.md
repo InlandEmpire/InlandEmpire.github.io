@@ -14,7 +14,7 @@ This site is hosted through Github's "Github Pages" service.
 That's an emblem I made to represent my online professional persona-- Inland Empire. Think of it like a personal logo. I have a few of those for different projects. This one is related to those.
 
 ### This site updated recently? Does that mean you're looking for a new job?
-No. I enjoy hobby development work and tinkering. Keeping this site up to date is a pass time, and how its updated is unrelated to my employment status.
+No. I enjoy hobby development work and tinkering. Keeping this site up to date is a passtime, and how its updated is unrelated to my employment status.
 
 ### Are there any easter eggs on the site?
 For the observant, yes.
